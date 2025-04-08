@@ -6,7 +6,7 @@ import SectionHeading from '@/components/SectionHeading';
 import { Button } from '@/components/ui/button';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Card, CardContent } from '@/components/ui/card';
-import deluxeDoubleBath1 from '../Assets/Deluxe Double Room with Bath (4)/Capture.png';
+import deluxeDoubleBath1 from '../Assets/Deluxe Double Room with Bath (4)/1.png';
 import deluxeDoubleBath2 from '../Assets/Deluxe Double Room with Bath (4)/2.png';
 import deluxeDoubleBath3 from '../Assets/Deluxe Double Room with Bath (4)/3.png';
 import deluxeDoubleBath4 from '../Assets/Deluxe Double Room with Bath (4)/4.png';
