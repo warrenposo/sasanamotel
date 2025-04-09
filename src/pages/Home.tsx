@@ -7,11 +7,11 @@ import AmenityCard from '@/components/AmenityCard';
 import RoomCard from '@/components/RoomCard';
 import TestimonialCarousel from '@/components/TestimonialCarousel';
 import homeImage from '@/assets/1.png'; // Import the local image
-import deluxeDoubleBathImage from '../assets/deluxedoubleroomwithbath (4)/1.png';
-import deluxeDoubleTwinImage from '../assets/deluxedoubleortwinroom (7)/4.png';
-import deluxeDoubleRoomImage from '../assets/deluxedoubleroom (7)/3.png';
+import deluxeDoubleBathImage from '../assets/deluxedoubleroomwithbath(4)/1.png';
+import deluxeDoubleTwinImage from '../assets/deluxedoubleortwinroom(7)/4.png';
+import deluxeDoubleRoomImage from '../assets/deluxedoubleroom(7)/3.png';
 import deluxeDoubleShowerImage from '../assets/deluxedoubleroomwithshower(6)/3.png';
-import budgetDoubleRoomImage from '../assets/budgetdoubleroom (9)/8.png';
+import budgetDoubleRoomImage from '../assets/budgetdoubleroom(9)/8.png';
 
 
 
