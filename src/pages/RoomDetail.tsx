@@ -40,7 +40,7 @@ import budgetDouble9 from '../../public/images/BudgetDoubleRoom9/9.png';
 import deluxeSingle1 from '../../public/images/BudgetDoubleRoom6/1.png';
 import deluxeSingle2 from '../../public/images/BudgetDoubleRoom6/2.png';
 import deluxeSingle3 from '../../public/images/BudgetDoubleRoom6/3.png';
-import deluxeSingle4 from '../../public/images/budgetdoubleroom6/4.png';
+import deluxeSingle4 from '../../public/images/BudgetDoubleRoom6/4.png';
 import deluxeSingle5 from '../../public/images/BudgetDoubleRoom6/5.png';
 import deluxeSingle6 from '../../public/images/BudgetDoubleRoom6/6.png';
 import deluxeDoubleShower1 from '../../public/images/DeluxeDoubleRoom4/1.png';
