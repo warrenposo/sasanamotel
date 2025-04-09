@@ -6,12 +6,12 @@ import SectionHeading from '../components/SectionHeading';
 import AmenityCard from '../components/AmenityCard';
 import RoomCard from '../components/RoomCard';
 import TestimonialCarousel from '../components/TestimonialCarousel';
-import homeImage from '../assets/1.png';
-import deluxeDoubleBathImage from '../assets/deluxedoubleroomwithbath4/1.png';
-import deluxeDoubleTwinImage from '../assets/deluxedoubleortwinroom7/4.png';
-import deluxeDoubleRoomImage from '../assets/deluxedoubleroom7/3.png';
-import deluxeDoubleShowerImage from '../assets/deluxedoubleroomwithshower6/3.png';
-import budgetDoubleRoomImage from '../assets/budgetdoubleroom9/8.png';
+import homeImage from '../assets/Home/home.png';
+import deluxeDoubleBathImage from '../assets/DeluxeDoubleRoomWithBath4/1.png';
+import deluxeDoubleTwinImage from '../assets/DeluxeDoubleOrTwinRoom7/4.png';
+import deluxeDoubleRoomImage from '../assets/DeluxeDoubleRoom7/3.png';
+import deluxeDoubleShowerImage from '../assets/DeluxeDoubleRoomWithShower6/3.png';
+import budgetDoubleRoomImage from '../assets/BudgetDoubleRoom9/8.png';
 
 const featuredRooms = [
   {
