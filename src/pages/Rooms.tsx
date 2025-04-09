@@ -4,7 +4,7 @@ import SectionHeading from '@/components/SectionHeading';
 import RoomCard from '@/components/RoomCard';
 import { BedDouble, User, Users, Bath, Droplet } from 'lucide-react';
 import deluxeDoubleBathImage from '../assets/DeluxeDoubleRoomWithBath4/3.png';
-import deluxeDoubleTwinImage from '../assets/DeluxeDoubleOrTwinRoom7/4.png';
+import deluxeDoubleTwinImage from '../assets/DeluxeDoubleOrTwinRoom7/5.png';
 import deluxeDoubleStandardImage from '../assets/DeluxeDoubleRoom5/2.png';
 import deluxeDoubleLargeImage from '../assets/DeluxeDoubleRoomWithShower6/3.png';
 import budgetDoubleImage from '../assets/BudgetDoubleRoom9/8.png';
