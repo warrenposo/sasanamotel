@@ -47,13 +47,13 @@ import deluxeDoubleShower1 from '../assets/deluxedoubleroom4/1.png';
 import deluxeDoubleShower2 from '../assets/deluxedoubleroom4/2.png';
 import deluxeDoubleShower3 from '../assets/deluxedoubleroom4/3.png';
 import deluxeDoubleShower4 from '../assets/deluxedoubleroom4/4.png';
-import premiumBudgetDouble1 from '../assets/deluxedoubleroom4/1.png';
-import premiumBudgetDouble2 from '../assets/deluxedoubleroom4/2.png';
-import premiumBudgetDouble3 from '../assets/deluxedoubleroom4/3.png';
-import premiumBudgetDouble4 from '../assets/deluxedoubleroom4/4.png';
-import premiumBudgetDouble5 from '../assets/deluxedoubleroom4/5.png';
-import premiumBudgetDouble6 from '../assets/deluxedoubleroom4/6.png';
-import premiumBudgetDouble7 from '../assets/deluxedoubleroom4/7.png';
+import premiumBudgetDouble1 from '../assets/deluxedoubleroom7/1.png';
+import premiumBudgetDouble2 from '../assets/deluxedoubleroom7/2.png';
+import premiumBudgetDouble3 from '../assets/deluxedoubleroom7/3.png';
+import premiumBudgetDouble4 from '../assets/deluxedoubleroom7/4.png';
+import premiumBudgetDouble5 from '../assets/deluxedoubleroom7/5.png';
+import premiumBudgetDouble6 from '../assets/deluxedoubleroom7/6.png';
+import premiumBudgetDouble7 from '../assets/deluxedoubleroom7/7.png';
 
 // Room data with multiple images
 const roomsData = [
