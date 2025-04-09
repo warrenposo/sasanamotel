@@ -6,7 +6,7 @@ import SectionHeading from '../components/SectionHeading';
 import AmenityCard from '../components/AmenityCard';
 import RoomCard from '../components/RoomCard';
 import TestimonialCarousel from '../components/TestimonialCarousel';
-import homeImage from '../assets/Home/home.png';
+import homeImage from '../assets/Home/3.png';
 import deluxeDoubleBathImage from '../assets/DeluxeDoubleRoomWithBath4/1.png';
 import deluxeDoubleTwinImage from '../assets/DeluxeDoubleOrTwinRoom7/4.png';
 import deluxeDoubleRoomImage from '../assets/DeluxeDoubleRoom7/3.png';
