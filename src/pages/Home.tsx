@@ -1,21 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
+import { Button } from '../components/ui/button';
 import { Wifi, Coffee, Utensils, Car, Calendar, Star, PhoneCall, Users, Ruler } from 'lucide-react';
-import SectionHeading from '@/components/SectionHeading';
-import AmenityCard from '@/components/AmenityCard';
-import RoomCard from '@/components/RoomCard';
-import TestimonialCarousel from '@/components/TestimonialCarousel';
-import homeImage from '@/assets/1.png'; // Import the local image
+import SectionHeading from '../components/SectionHeading';
+import AmenityCard from '../components/AmenityCard';
+import RoomCard from '../components/RoomCard';
+import TestimonialCarousel from '../components/TestimonialCarousel';
+import homeImage from '../assets/1.png';
 import deluxeDoubleBathImage from '../assets/deluxedoubleroomwithbath4/1.png';
 import deluxeDoubleTwinImage from '../assets/deluxedoubleortwinroom7/4.png';
 import deluxeDoubleRoomImage from '../assets/deluxedoubleroom7/3.png';
 import deluxeDoubleShowerImage from '../assets/deluxedoubleroomwithshower6/3.png';
 import budgetDoubleRoomImage from '../assets/budgetdoubleroom9/8.png';
 
-
-
-// Sample room data - updated featured rooms
 const featuredRooms = [
   {
     id: 'deluxe-double-bath',
@@ -41,7 +38,6 @@ const featuredRooms = [
   },
 ];
 
-// Sample testimonials
 const testimonials = [
   {
     id: 1,
@@ -76,7 +72,6 @@ const testimonials = [
 const Home = () => {
   return (
     <div>
-      {/* Hero Section */}
       <section className="hero-pattern relative py-16 md:py-24">
         <div className="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           <div>
@@ -112,7 +107,7 @@ const Home = () => {
           
           <div className="relative rounded-lg overflow-hidden shadow-xl">
             <img 
-              src={homeImage} // Updated to use local image
+              src={homeImage}
               alt="Sasana Guest House" 
               className="w-full h-auto object-cover rounded-lg"
             />
@@ -125,8 +120,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Rest of the component remains the same */}
-      {/* About Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <SectionHeading 
@@ -149,32 +142,31 @@ const Home = () => {
             </div>
             
             <div className="grid grid-cols-2 gap-4">
-            <img 
-  src={deluxeDoubleBathImage}
-  alt="Deluxe Double Room with Bath"
-  className="rounded-lg h-48 w-full object-cover"
-/>
-<img 
-  src={deluxeDoubleRoomImage} 
-  alt="Deluxe Double Room" 
-  className="rounded-lg h-48 w-full object-cover"
-/>
-<img 
-  src={budgetDoubleRoomImage}
-  alt="Budget Double Room" 
-  className="rounded-lg h-48 w-full object-cover"
-/>
-<img 
-  src={deluxeDoubleShowerImage}
-  alt="Deluxe Double Room with Shower" 
-  className="rounded-lg h-48 w-full object-cover"
-/>
+              <img 
+                src={deluxeDoubleBathImage}
+                alt="Deluxe Double Room with Bath"
+                className="rounded-lg h-48 w-full object-cover"
+              />
+              <img 
+                src={deluxeDoubleRoomImage} 
+                alt="Deluxe Double Room" 
+                className="rounded-lg h-48 w-full object-cover"
+              />
+              <img 
+                src={budgetDoubleRoomImage}
+                alt="Budget Double Room" 
+                className="rounded-lg h-48 w-full object-cover"
+              />
+              <img 
+                src={deluxeDoubleShowerImage}
+                alt="Deluxe Double Room with Shower" 
+                className="rounded-lg h-48 w-full object-cover"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Amenities Section */}
       <section className="py-16 bg-sage-50">
         <div className="container mx-auto px-4">
           <SectionHeading 
@@ -224,7 +216,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Rooms */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <SectionHeading 
@@ -251,7 +242,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
       <section className="py-16 bg-sage-50">
         <div className="container mx-auto px-4">
           <SectionHeading 
@@ -272,7 +262,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-16 bg-sasana-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6">
