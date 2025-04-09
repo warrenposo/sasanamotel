@@ -3,14 +3,14 @@ import React from 'react';
 import SectionHeading from '@/components/SectionHeading';
 import RoomCard from '@/components/RoomCard';
 import { BedDouble, User, Users, Bath, Droplet } from 'lucide-react';
-import deluxeDoubleBathImage from '../Assets/deluxedoubleroomwithbath (4)/2.png';
-import deluxeDoubleTwinImage from '../Assets/deluxedoubleortwinroom (7)/4.png';
-import deluxeDoubleStandardImage from '../Assets/deluxedoubleroom (5)/2.png';
-import deluxeDoubleLargeImage from '../Assets/deluxedoubleroomwithshower(6)/3.png';
-import budgetDoubleImage from '../Assets/budgetdoubleroom (9)/8.png';
-import deluxeSingleImage from '../Assets/budgetdoubleroom(6)/6.png';
-import deluxeDoubleShowerImage from '../Assets/deluxedoubleroom (4)/3.png';
-import premiumBudgetDoubleImage from '../Assets/deluxedoubleroom (7)/1.png';
+import deluxeDoubleBathImage from '../assets/deluxedoubleroomwithbath (4)/2.png';
+import deluxeDoubleTwinImage from '../assets/deluxedoubleortwinroom (7)/4.png';
+import deluxeDoubleStandardImage from '../assets/deluxedoubleroom (5)/2.png';
+import deluxeDoubleLargeImage from '../assets/deluxedoubleroomwithshower(6)/3.png';
+import budgetDoubleImage from '../assets/budgetdoubleroom (9)/8.png';
+import deluxeSingleImage from '../assets/budgetdoubleroom(6)/6.png';
+import deluxeDoubleShowerImage from '../assets/deluxedoubleroom (4)/3.png';
+import premiumBudgetDoubleImage from '../assets/deluxedoubleroom (7)/1.png';
 
 
 
