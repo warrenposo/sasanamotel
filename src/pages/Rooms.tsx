@@ -8,7 +8,7 @@ import deluxeDoubleTwinImage from '../assets/DeluxeDoubleOrTwinRoom7/4.png';
 import deluxeDoubleStandardImage from '../assets/DeluxeDoubleRoom5/2.png';
 import deluxeDoubleLargeImage from '../assets/DeluxeDoubleRoomWithShower6/3.png';
 import budgetDoubleImage from '../assets/BudgetDoubleRoom9/8.png';
-import deluxeSingleImage from '../assets/BudgetDoubleDoom6/6.png';
+import deluxeSingleImage from '../assets/BudgetDoubleRoom6/6.png';
 import deluxeDoubleShowerImage from '../assets/DeluxeDoubleRoom4/3.png';
 import premiumBudgetDoubleImage from '../assets/DeluxeDoubleRoom7/1.png';
 
