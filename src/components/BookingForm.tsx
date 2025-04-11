@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, useNavigate } from 'react-router-dom';
 import { Calendar } from '@/components/ui/calendar';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Button } from '@/components/ui/button';
@@ -13,6 +12,7 @@ import { toast } from '@/components/ui/use-toast';
 
 const BookingForm = () => {
   const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
   const initialRoomId = searchParams.get('room') || '';
 
   const [formData, setFormData] = useState({
@@ -57,26 +57,8 @@ const BookingForm = () => {
       return;
     }
     
-    // Submit form logic would go here
-    console.log('Booking form submitted:', formData);
-    
-    toast({
-      title: "Booking Request Submitted",
-      description: "We'll contact you shortly to confirm your reservation.",
-    });
-    
-    // Reset form (in a real app, you might redirect after successful submission)
-    setFormData({
-      checkIn: undefined,
-      checkOut: undefined,
-      roomType: '',
-      adults: '1',
-      children: '0',
-      name: '',
-      email: '',
-      phone: '',
-      specialRequests: '',
-    });
+    // Navigate to payment page with room details
+    navigate(`/payment?roomId=${formData.roomType}`);
   };
 
   return (
@@ -154,9 +136,14 @@ const BookingForm = () => {
               <SelectValue placeholder="Select room type" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="double">Double Room</SelectItem>
-              <SelectItem value="twin">Twin Room</SelectItem>
-              <SelectItem value="family">Family Room</SelectItem>
+              <SelectItem value="deluxe-double-bath">Deluxe Double Room with Bath</SelectItem>
+              <SelectItem value="deluxe-double-twin">Deluxe Double or Twin Room</SelectItem>
+              <SelectItem value="deluxe-double-standard">Deluxe Double Room</SelectItem>
+              <SelectItem value="deluxe-double-large">Deluxe Double Room (Large)</SelectItem>
+              <SelectItem value="budget-double">Budget Double Room</SelectItem>
+              <SelectItem value="deluxe-single">Deluxe Single Room</SelectItem>
+              <SelectItem value="deluxe-double-shower">Deluxe Double Room with Shower</SelectItem>
+              <SelectItem value="budget-double-premium">Premium Budget Double Room</SelectItem>
             </SelectContent>
           </Select>
         </div>
@@ -254,12 +241,12 @@ const BookingForm = () => {
         </div>
       </div>
       
-      <Button type="submit" className="w-full bg-sasana-600 hover:bg-sasana-700">
-        Request Booking
-      </Button>
+      <button type="submit" className="w-full bg-sasana-600 text-white py-2 rounded-lg hover:bg-sasana-700 transition duration-300">
+        Select Room
+      </button>
       
       <p className="text-xs text-muted-foreground text-center mt-4">
-        By clicking 'Request Booking', you agree to our terms and conditions.
+        By clicking 'Select Room', you agree to our terms and conditions.
       </p>
     </form>
   );

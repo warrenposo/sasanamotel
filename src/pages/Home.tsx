@@ -83,7 +83,7 @@ const Home = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg" className="bg-sasana-600 hover:bg-sasana-700">
-                <Link to="/book">Book Now</Link>
+                <Link to="/payment">Book Now</Link>
               </Button>
               <Button asChild variant="outline" size="lg">
                 <Link to="/rooms">Explore Rooms</Link>
@@ -272,7 +272,7 @@ const Home = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="bg-white text-sasana-900 hover:bg-sasana-100">
-              <Link to="/book">Book Now</Link>
+              <Link to="/payment">Book Now</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
               <Link to="/contact">Contact Us</Link>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import SectionHeading from '@/components/SectionHeading';
 import RoomCard from '@/components/RoomCard';
@@ -11,8 +10,7 @@ import budgetDoubleImage from '../../public/images/BudgetDoubleRoom9/8.png';
 import deluxeSingleImage from '../../public/images/BudgetDoubleRoom6/6.png';
 import deluxeDoubleShowerImage from '../../public/images/DeluxeDoubleRoom4/3.png';
 import premiumBudgetDoubleImage from '../../public/images/DeluxeDoubleRoom7/1.png';
-
-
+import { Link } from 'react-router-dom';
 
 const rooms = [
   {
@@ -132,7 +130,9 @@ const Rooms = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {rooms.map((room) => (
-              <RoomCard key={room.id} {...room} />
+              <div key={room.id} className="room-card">
+                <RoomCard {...room} />
+              </div>
             ))}
           </div>
         </div>
