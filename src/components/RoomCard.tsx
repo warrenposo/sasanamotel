@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -26,7 +25,7 @@ const RoomCard = ({ id, name, type, price, image, capacity, features, size, avai
           className="w-full h-full object-cover transition-transform hover:scale-105 duration-500"
         />
         <div className="absolute top-3 right-3 bg-white/90 text-sasana-800 px-3 py-1 rounded-full text-sm font-semibold">
-          ${price}/night
+          Ksh {price}/night
         </div>
         {available && available < 5 && (
           <div className="absolute top-3 left-3 bg-red-500/90 text-white px-3 py-1 rounded-full text-xs font-semibold">

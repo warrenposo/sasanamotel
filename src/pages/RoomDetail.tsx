@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Users, Ruler, Bath, Wifi, Coffee, Droplet, User } from 'lucide-react';
@@ -56,12 +55,12 @@ import premiumBudgetDouble6 from '../../public/images/DeluxeDoubleRoom7/6.png';
 import premiumBudgetDouble7 from '../../public/images/DeluxeDoubleRoom7/7.png';
 
 // Room data with multiple images
-const roomsData = [
+export const roomsData = [
   {
     id: 'deluxe-double-bath',
     name: 'Deluxe Double Room with Bath',
     type: 'Double Room',
-    price: 45,
+    price: 45 * 130,
     images: [
       deluxeDoubleBath1,
       deluxeDoubleBath2,
@@ -79,7 +78,7 @@ const roomsData = [
     id: 'deluxe-double-twin',
     name: 'Deluxe Double or Twin Room',
     type: 'Double/Twin Room',
-    price: 55,
+    price: 55 * 130,
     images: [
       deluxeDoubleTwin1,
       deluxeDoubleTwin2,
@@ -100,7 +99,7 @@ const roomsData = [
     id: 'deluxe-double-standard',
     name: 'Deluxe Double Room',
     type: 'Double Room',
-    price: 50,
+    price: 50 * 130,
     images: [
       deluxeDoubleStandard1,
       deluxeDoubleStandard2,
@@ -119,7 +118,7 @@ const roomsData = [
     id: 'deluxe-double-large',
     name: 'Deluxe Double Room (Large)',
     type: 'Double Room',
-    price: 55,
+    price: 55 * 130,
     images: [
       deluxeDoubleLarge1,
       deluxeDoubleLarge2,
@@ -139,7 +138,7 @@ const roomsData = [
     id: 'budget-double',
     name: 'Budget Double Room',
     type: 'Double Room',
-    price: 40,
+    price: 40 * 130,
     images: [
       budgetDouble1,
       budgetDouble2,
@@ -162,7 +161,7 @@ const roomsData = [
     id: 'deluxe-single',
     name: 'Deluxe Single Room',
     type: 'Single Room',
-    price: 35,
+    price: 35 * 130,
     images: [
       deluxeSingle1,
       deluxeSingle2,
@@ -182,7 +181,7 @@ const roomsData = [
     id: 'deluxe-double-shower',
     name: 'Deluxe Double Room with Shower',
     type: 'Double Room',
-    price: 45,
+    price: 45 * 130,
     images: [
       deluxeDoubleShower1,
       deluxeDoubleShower2,
@@ -200,7 +199,7 @@ const roomsData = [
     id: 'budget-double-premium',
     name: 'Premium Budget Double Room',
     type: 'Double Room',
-    price: 42,
+    price: 42 * 130,
     images: [
       premiumBudgetDouble1,
       premiumBudgetDouble2,
@@ -316,7 +315,7 @@ const RoomDetail = () => {
           <div className="space-y-4 mb-6">
             <div className="flex justify-between">
               <span className="text-muted-foreground">Price per night</span>
-              <span className="font-semibold">${room.price}</span>
+              <span className="font-semibold">${room.price / 130}</span>
             </div>
             
             <div className="flex justify-between">

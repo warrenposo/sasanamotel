@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionHeading from '@/components/SectionHeading';
 import BookingForm from '@/components/BookingForm';
+import { roomsData } from './RoomDetail';
 
 const Book = () => {
   return (
@@ -113,7 +114,7 @@ const Book = () => {
               </div>
             </div>
             
-            <BookingForm />
+            <BookingForm rooms={roomsData} />
           </div>
         </div>
       </section>

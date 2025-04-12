@@ -6,11 +6,11 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { format } from 'date-fns';
+import { format, differenceInDays } from 'date-fns';
 import { CalendarIcon } from 'lucide-react';
 import { toast } from '@/components/ui/use-toast';
 
-const BookingForm = () => {
+const BookingForm = ({ rooms }) => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const initialRoomId = searchParams.get('room') || '';
@@ -59,6 +59,15 @@ const BookingForm = () => {
     
     // Navigate to payment page with room details
     navigate(`/payment?roomId=${formData.roomType}`);
+  };
+
+  const calculateTotalAmount = () => {
+    if (formData.checkIn && formData.checkOut) {
+      const days = differenceInDays(formData.checkOut, formData.checkIn);
+      const room = rooms.find(r => r.id === formData.roomType);
+      return room ? days * room.price : 0;
+    }
+    return 0;
   };
 
   return (
@@ -136,14 +145,11 @@ const BookingForm = () => {
               <SelectValue placeholder="Select room type" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="deluxe-double-bath">Deluxe Double Room with Bath</SelectItem>
-              <SelectItem value="deluxe-double-twin">Deluxe Double or Twin Room</SelectItem>
-              <SelectItem value="deluxe-double-standard">Deluxe Double Room</SelectItem>
-              <SelectItem value="deluxe-double-large">Deluxe Double Room (Large)</SelectItem>
-              <SelectItem value="budget-double">Budget Double Room</SelectItem>
-              <SelectItem value="deluxe-single">Deluxe Single Room</SelectItem>
-              <SelectItem value="deluxe-double-shower">Deluxe Double Room with Shower</SelectItem>
-              <SelectItem value="budget-double-premium">Premium Budget Double Room</SelectItem>
+              {rooms.map((room) => (
+                <SelectItem key={room.id} value={room.id}>
+                  {room.name}
+                </SelectItem>
+              ))}
             </SelectContent>
           </Select>
         </div>
@@ -239,14 +245,19 @@ const BookingForm = () => {
             className="min-h-[100px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
           />
         </div>
+
+        <div className="space-y-2">
+          <Label>Total Amount</Label>
+          <p>Ksh {calculateTotalAmount()}</p>
+        </div>
       </div>
       
       <button type="submit" className="w-full bg-sasana-600 text-white py-2 rounded-lg hover:bg-sasana-700 transition duration-300">
-        Select Room
+        Proceed to Pay
       </button>
       
       <p className="text-xs text-muted-foreground text-center mt-4">
-        By clicking 'Select Room', you agree to our terms and conditions.
+        By clicking 'Proceed to Pay', you agree to our terms and conditions.
       </p>
     </form>
   );

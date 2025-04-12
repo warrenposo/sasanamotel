@@ -17,7 +17,7 @@ const rooms = [
     id: 'deluxe-double-bath',
     name: 'Deluxe Double Room with Bath',
     type: 'Double Room',
-    price: 45,
+    price: 45 * 130,
     image: deluxeDoubleBathImage,  // Using local image instead of URL
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Bath'],
@@ -28,7 +28,7 @@ const rooms = [
     id: 'deluxe-double-twin',
     name: 'Deluxe Double or Twin Room',
     type: 'Double/Twin Room',
-    price: 55,
+    price: 55 * 130,
     image: deluxeDoubleTwinImage,  // Using local image instead of URL
     capacity: 4,
     features: ['Garden View', 'Soundproofing', 'Extra Space'],
@@ -39,7 +39,7 @@ const rooms = [
     id: 'deluxe-double-standard',
     name: 'Deluxe Double Room',
     type: 'Double Room',
-    price: 50,
+    price: 50 * 130,
     image: deluxeDoubleStandardImage,  // Using local image instead of URL
     capacity: 2,
     features: ['Garden View', 'Flat-screen TV', 'Free WiFi'],
@@ -50,7 +50,7 @@ const rooms = [
     id: 'deluxe-double-large',
     name: 'Deluxe Double Room (Large)',
     type: 'Double Room',
-    price: 55,
+    price: 55 * 130,
     image: deluxeDoubleLargeImage,  // Using local image instead of URL
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Spacious'],
@@ -61,7 +61,7 @@ const rooms = [
     id: 'budget-double',
     name: 'Budget Double Room',
     type: 'Double Room',
-    price: 40,
+    price: 40 * 130,
     image: budgetDoubleImage,  // Using local image instead of URL
     capacity: 2,
     features: ['Free WiFi', 'Breakfast Included'],
@@ -72,7 +72,7 @@ const rooms = [
     id: 'deluxe-single',
     name: 'Deluxe Single Room',
     type: 'Single Room',
-    price: 35,
+    price: 35 * 130,
     image: deluxeSingleImage,  // Using local image instead of URL
     capacity: 1,
     features: ['Garden View', 'Free WiFi', 'Cozy'],
@@ -83,7 +83,7 @@ const rooms = [
     id: 'deluxe-double-shower',
     name: 'Deluxe Double Room with Shower',
     type: 'Double Room',
-    price: 45,
+    price: 45 * 130,
     image: deluxeDoubleShowerImage,  // Using local image
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Shower'],
@@ -94,7 +94,7 @@ const rooms = [
     id: 'budget-double-premium',
     name: 'Premium Budget Double Room',
     type: 'Double Room',
-    price: 42,
+    price: 42 * 130,
     image: premiumBudgetDoubleImage,  // Using local image
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
