@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { toast } from '@/components/ui/use-toast';
@@ -203,20 +202,15 @@ const Contact = () => {
           />
           
           <div className="max-w-4xl mx-auto rounded-lg overflow-hidden shadow-md">
-            {/* Replace with actual embedded map in production */}
-            <div className="bg-gray-200 h-96 flex items-center justify-center">
-              <p className="text-muted-foreground">Map will be displayed here</p>
-              {/* In production, use: */}
-              {/* <iframe 
-                src="https://www.google.com/maps/embed?pb=..."
-                width="100%" 
-                height="100%" 
-                style={{border: 0}}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe> */}
-            </div>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15955.123456789012!2d34.55365654832424!3d0.5899895006618172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1234567890123"
+              width="100%" 
+              height="100%" 
+              style={{border: 0}}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </section>
