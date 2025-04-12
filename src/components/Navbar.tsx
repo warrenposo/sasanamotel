@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-sasana-100">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <img src="/public/logo/logo.png" alt="Sasana Guest House Logo" className="h-10 mr-2" />
+          <img src="/logo/logo.png" alt="Sasana Guest House Logo" className="h-12 mr-2" />
         </Link>
 
         {/* Desktop Navigation */}
