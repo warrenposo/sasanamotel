@@ -6,7 +6,7 @@ const rooms = [
     id: 'deluxe-double-bath',
     name: 'Deluxe Double Room with Bath',
     type: 'Double Room',
-    price: 45,
+    price: 45 * 130, // Converted to Ksh
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Bath'],
     size: '16 m²',
@@ -18,10 +18,11 @@ const PaymentPage = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const roomId = queryParams.get('roomId');
+  const totalAmount = queryParams.get('totalAmount');
   const selectedRoom = rooms.find(room => room.id === roomId);
 
   const [phoneNumber, setPhoneNumber] = useState('');
-  const [amount, setAmount] = useState(selectedRoom ? selectedRoom.price : '');
+  const [amount, setAmount] = useState(totalAmount || (selectedRoom ? selectedRoom.price : ''));
 
   const handlePayment = (e) => {
     e.preventDefault();
@@ -37,7 +38,8 @@ const PaymentPage = () => {
           <div className="mb-6">
             <h2 className="text-xl font-semibold text-gray-800">{selectedRoom.name}</h2>
             <p className="text-gray-600">Type: {selectedRoom.type}</p>
-            <p className="text-gray-600">Price: ${selectedRoom.price}</p>
+            <p className="text-gray-600">Price per night: Ksh {selectedRoom.price}</p>
+            <p className="text-gray-600">Total Amount: Ksh {amount}</p>
             <p className="text-gray-600">Capacity: {selectedRoom.capacity} people</p>
             <p className="text-gray-600">Size: {selectedRoom.size}</p>
           </div>
@@ -67,9 +69,13 @@ const PaymentPage = () => {
               onChange={(e) => setAmount(e.target.value)}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
+              readOnly
             />
           </div>
-          <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+          <button
+            type="submit"
+            className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300"
+          >
             Pay Now
           </button>
         </form>

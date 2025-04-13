@@ -58,7 +58,7 @@ const BookingForm = ({ rooms }) => {
     }
     
     // Navigate to payment page with room details
-    navigate(`/payment?roomId=${formData.roomType}`);
+    navigate(`/payment?roomId=${formData.roomType}&totalAmount=${calculateTotalAmount()}`);
   };
 
   const calculateTotalAmount = () => {
