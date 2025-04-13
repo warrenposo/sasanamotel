@@ -23,11 +23,17 @@ const PaymentPage = () => {
 
   const [phoneNumber, setPhoneNumber] = useState('');
   const [amount, setAmount] = useState(totalAmount || (selectedRoom ? selectedRoom.price : ''));
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const handlePayment = (e) => {
     e.preventDefault();
-    // Here you would integrate with the M-Pesa API
-    console.log('Initiating payment with M-Pesa:', { phoneNumber, amount });
+    setLoading(true);
+    // Simulate payment process
+    setTimeout(() => {
+      setLoading(false);
+      setSuccess(true);
+    }, 3000);
   };
 
   return (
@@ -44,41 +50,46 @@ const PaymentPage = () => {
             <p className="text-gray-600">Size: {selectedRoom.size}</p>
           </div>
         )}
-        <form onSubmit={handlePayment} className="space-y-6">
-          <div>
-            <label className="block text-sm font-medium mb-2 text-gray-700" htmlFor="phoneNumber">
-              Phone Number
-            </label>
-            <input
-              type="text"
-              id="phoneNumber"
-              value={phoneNumber}
-              onChange={(e) => setPhoneNumber(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              required
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium mb-2 text-gray-700" htmlFor="amount">
-              Amount
-            </label>
-            <input
-              type="number"
-              id="amount"
-              value={amount}
-              onChange={(e) => setAmount(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              required
-              readOnly
-            />
-          </div>
-          <button
-            type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300"
-          >
-            Pay Now
-          </button>
-        </form>
+        {success ? (
+          <div className="text-center text-green-600 font-semibold">Payment Successful!</div>
+        ) : (
+          <form onSubmit={handlePayment} className="space-y-6">
+            <div>
+              <label className="block text-sm font-medium mb-2 text-gray-700" htmlFor="phoneNumber">
+                Phone Number
+              </label>
+              <input
+                type="text"
+                id="phoneNumber"
+                value={phoneNumber}
+                onChange={(e) => setPhoneNumber(e.target.value)}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-medium mb-2 text-gray-700" htmlFor="amount">
+                Amount
+              </label>
+              <input
+                type="number"
+                id="amount"
+                value={amount}
+                onChange={(e) => setAmount(e.target.value)}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+                readOnly
+              />
+            </div>
+            <button
+              type="submit"
+              className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300"
+              disabled={loading}
+            >
+              {loading ? 'Processing...' : 'Pay Now'}
+            </button>
+          </form>
+        )}
       </div>
     </div>
   );
