@@ -6,31 +6,31 @@ import SectionHeading from '../components/SectionHeading';
 import AmenityCard from '../components/AmenityCard';
 import RoomCard from '../components/RoomCard';
 import TestimonialCarousel from '../components/TestimonialCarousel';
-import homeImage from '../../public/images/Home/3.png';
-import deluxeDoubleBathImage from '../../public/images/DeluxeDoubleRoomWithBath4/1.png';
-import deluxeDoubleTwinImage from '../../public/images/DeluxeDoubleOrTwinRoom7/4.png';
-import deluxeDoubleRoomImage from '../../public/images/DeluxeDoubleRoom7/3.png';
-import deluxeDoubleShowerImage from '../../public/images/DeluxeDoubleRoomWithShower6/3.png';
+import homeImage from '../assets/Images/Mahe/Mahe8.jpg';
+import aberdeen from '../assets/Images/Aberdeer/Aberdeer3.jpg';
+import agra from '../assets/Images/Agra/Agra7.jpg';
+import paris from '../assets/Images/Paris/p12.jpg';
+import mahe from '../assets/Images/Mahe/Mahe8.jpg';
 import budgetDoubleRoomImage from '../../public/images/BudgetDoubleRoom9/8.png';
 
 const featuredRooms = [
   {
-    id: 'deluxe-double-bath',
-    name: 'Deluxe Double Room with Bath',
-    type: 'Double Room',
-    price: 45 * 130,
-    image: deluxeDoubleBathImage,
+    id: 'aberdeen',
+    name: 'Aberdeen',
+    type: 'Aberdeen',
+    price: 2500,
+    image: aberdeen,
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Bath'],
     size: '16 m²',
     available: 4
   },
   {
-    id: 'deluxe-double-twin',
-    name: 'Deluxe Double or Twin Room',
-    type: 'Double/Twin Room',
-    price: 55 * 130,
-    image: deluxeDoubleTwinImage,
+    id: 'agra',
+    name: 'Agra',
+    type: 'Agra',
+    price: 2500,
+    image: agra,
     capacity: 4,
     features: ['Garden View', 'Soundproofing', 'Extra Space'],
     size: '24 m²',
@@ -143,22 +143,22 @@ const Home = () => {
             
             <div className="grid grid-cols-2 gap-4">
               <img 
-                src={deluxeDoubleBathImage}
+                src={aberdeen}
                 alt="Deluxe Double Room with Bath"
                 className="rounded-lg h-48 w-full object-cover"
               />
               <img 
-                src={deluxeDoubleRoomImage} 
+                src={agra} 
                 alt="Deluxe Double Room" 
                 className="rounded-lg h-48 w-full object-cover"
               />
               <img 
-                src={budgetDoubleRoomImage}
+                src={paris}
                 alt="Budget Double Room" 
                 className="rounded-lg h-48 w-full object-cover"
               />
               <img 
-                src={deluxeDoubleShowerImage}
+                src={mahe}
                 alt="Deluxe Double Room with Shower" 
                 className="rounded-lg h-48 w-full object-cover"
               />

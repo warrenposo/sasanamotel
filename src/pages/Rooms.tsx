@@ -3,7 +3,7 @@ import SectionHeading from '../components/SectionHeading';
 import RoomCard from '../components/RoomCard';
 import { BedDouble, User, Users, Bath, Droplet } from 'lucide-react';
 import aberdeer from '../assets/Images/Aberdeer/Aberdeer3.jpg';
-import agra from '../assets/Images/Agra/Agra3.jpg';
+import agra from '../assets/Images/Agra/Agra4.jpg';
 import bangkok from '../assets/Images/Bangkok/Bangkok3.jpg';
 import brae from '../assets/Images/Brae/brae7.jpg';
 import london from '../assets/Images/London/London5.jpg';
