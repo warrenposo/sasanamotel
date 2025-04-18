@@ -6,11 +6,11 @@ import SectionHeading from '../components/SectionHeading';
 import AmenityCard from '../components/AmenityCard';
 import RoomCard from '../components/RoomCard';
 import TestimonialCarousel from '../components/TestimonialCarousel';
-import homeImage from '../assets/Images/Mahe/Mahe8.jpg';
-import aberdeen from '../assets/Images/Aberdeer/Aberdeer3.jpg';
-import agra from '../assets/Images/Agra/Agra7.jpg';
-import paris from '../assets/Images/Paris/p12.jpg';
-import mahe from '../assets/Images/Mahe/Mahe8.jpg';
+import homeImage from '@/assets/Images/Mahe/Mahe8.jpg';
+import aberdeen from '@/assets/Images/Aberdeer/Aberdeer3.jpg';
+import agra from '@/assets/Images/Agra/Agra7.jpg';
+import paris from '@/assets/Images/Paris/p12.jpg';
+import mahe from '@/assets/Images/Mahe/Mahe8.jpg';
 import budgetDoubleRoomImage from '../../public/images/BudgetDoubleRoom9/8.png';
 
 const featuredRooms = [
