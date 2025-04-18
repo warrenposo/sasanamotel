@@ -1,71 +1,144 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Users, Ruler, Bath, Wifi, Coffee, Droplet, User } from 'lucide-react';
-import SectionHeading from '@/components/SectionHeading';
-import { Button } from '@/components/ui/button';
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
-import { Card, CardContent } from '@/components/ui/card';
-import deluxeDoubleBath1 from '../../public/images/DeluxeDoubleRoomWithBath4/1.png';
-import deluxeDoubleBath2 from '../../public/images/DeluxeDoubleRoomWithBath4/2.png';
-import deluxeDoubleBath3 from '../../public/images/DeluxeDoubleRoomWithBath4/3.png';
-import deluxeDoubleBath4 from '../../public/images/DeluxeDoubleRoomWithBath4/4.png';
-import deluxeDoubleTwin1 from '../../public/images/DeluxeDoubleOrTwinRoom7/1.png';
-import deluxeDoubleTwin2 from '../../public/images/DeluxeDoubleOrTwinRoom7/2.png';
-import deluxeDoubleTwin3 from '../../public/images/DeluxeDoubleOrTwinRoom7/3.png';
-import deluxeDoubleTwin4 from '../../public/images/DeluxeDoubleOrTwinRoom7/4.png';
-import deluxeDoubleTwin5 from '../../public/images/DeluxeDoubleOrTwinRoom7/5.png';
-import deluxeDoubleTwin6 from '../../public/images/DeluxeDoubleOrTwinRoom7/6.png';
-import deluxeDoubleTwin7 from '../../public/images/DeluxeDoubleOrTwinRoom7/7.png';
-import deluxeDoubleStandard1 from '../../public/images/DeluxeDoubleRoom5/1.png';
-import deluxeDoubleStandard2 from '../../public/images/DeluxeDoubleRoom5/2.png';
-import deluxeDoubleStandard3 from '../../public/images/DeluxeDoubleRoom5/3.png';
-import deluxeDoubleStandard4 from '../../public/images/DeluxeDoubleRoom5/4.png';
-import deluxeDoubleStandard5 from '../../public/images/DeluxeDoubleRoom5/5.png';
-import deluxeDoubleLarge1 from '../../public/images/DeluxeDoubleRoomWithShower6/1.png';
-import deluxeDoubleLarge2 from '../../public/images//DeluxeDoubleRoomWithShower6/2.png';
-import deluxeDoubleLarge3 from '../../public/images/DeluxeDoubleRoomWithShower6/3.png';
-import deluxeDoubleLarge4 from '../../public/images/DeluxeDoubleRoomWithShower6/4.png';
-import deluxeDoubleLarge5 from '../../public/images/DeluxeDoubleRoomWithShower6/5.png';
-import deluxeDoubleLarge6 from '../../public/images/DeluxeDoubleRoomWithShower6/6.png';
-import budgetDouble1 from '../../public/images/BudgetDoubleRoom9/1.png';
-import budgetDouble2 from '../../public/images/BudgetDoubleRoom9/2.png';
-import budgetDouble3 from '../../public/images/BudgetDoubleRoom9/3.png';
-import budgetDouble4 from '../../public/images/BudgetDoubleRoom9/4.png';
-import budgetDouble5 from '../../public/images/BudgetDoubleRoom9/5.png';
-import budgetDouble6 from '../../public/images/BudgetDoubleRoom9/6.png';
-import budgetDouble7 from '../../public/images/BudgetDoubleRoom9/7.png';
-import budgetDouble8 from '../../public/images/BudgetDoubleRoom9/8.png';
-import budgetDouble9 from '../../public/images/BudgetDoubleRoom9/9.png';
-import deluxeSingle1 from '../../public/images/BudgetDoubleRoom6/1.png';
-import deluxeSingle2 from '../../public/images/BudgetDoubleRoom6/2.png';
-import deluxeSingle3 from '../../public/images/BudgetDoubleRoom6/3.png';
-import deluxeSingle4 from '../../public/images/BudgetDoubleRoom6/4.png';
-import deluxeSingle5 from '../../public/images/BudgetDoubleRoom6/5.png';
-import deluxeSingle6 from '../../public/images/BudgetDoubleRoom6/6.png';
-import deluxeDoubleShower1 from '../../public/images/DeluxeDoubleRoom4/1.png';
-import deluxeDoubleShower2 from '../../public/images/DeluxeDoubleRoom4/2.png';
-import deluxeDoubleShower3 from '../../public/images/DeluxeDoubleRoom4/3.png';
-import deluxeDoubleShower4 from '../../public/images/DeluxeDoubleRoom4/4.png';
-import premiumBudgetDouble1 from '../../public/images/DeluxeDoubleRoom7/1.png';
-import premiumBudgetDouble2 from '../../public/images/DeluxeDoubleRoom7/2.png';
-import premiumBudgetDouble3 from '../../public/images/DeluxeDoubleRoom7/3.png';
-import premiumBudgetDouble4 from '../../public/images/DeluxeDoubleRoom7/4.png';
-import premiumBudgetDouble5 from '../../public/images/DeluxeDoubleRoom7/5.png';
-import premiumBudgetDouble6 from '../../public/images/DeluxeDoubleRoom7/6.png';
-import premiumBudgetDouble7 from '../../public/images/DeluxeDoubleRoom7/7.png';
+import SectionHeading from '../components/SectionHeading';
+import { Button } from '../components/ui/button';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '../components/ui/carousel';
+import { Card, CardContent } from '../components/ui/card';
+import aberdeer1 from '../assets/Images/Aberdeer/Aberdeer1.jpg';
+import aberdeer2 from '../assets/Images/Aberdeer/Aberdeer2.jpg';
+import aberdeer3 from '../assets/Images/Aberdeer/Aberdeer3.jpg';
+import aberdeer4 from '../assets/Images/Aberdeer/Aberdeer4.jpg';
+import aberdeer5 from '../assets/Images/Aberdeer/Aberdeer5.jpg';
+import aberdeer6 from '../assets/Images/Aberdeer/Aberdeer6.jpg';
+import aberdeer7 from '../assets/Images/Aberdeer/Aberdeer7.jpg';
+import agra1 from '../assets/Images/Agra/Agra1.jpg';
+import agra2 from '../assets/Images/Agra/Agra2.jpg';
+import agra3 from '../assets/Images/Agra/Agra3.jpg';
+import agra4 from '../assets/Images/Agra/Agra4.jpg';
+import agra5 from '../assets/Images/Agra/Agra5.jpg';
+import agra6 from '../assets/Images/Agra/Agra6.jpg';
+import agra7 from '../assets/Images/Agra/Agra7.jpg';
+import agra8 from '../assets/Images/Agra/Agra8.jpg';
+import agra9 from '../assets/Images/Agra/Agra9.jpg';
+import bangkok1 from '../assets/Images/Bangkok/Bangkok1.jpg';
+import bangkok3 from '../assets/Images/Bangkok/Bangkok3.jpg';
+import bangkok6 from '../assets/Images/Bangkok/Bangkok6.jpg';
+import bangkok4 from '../assets/Images/Bangkok/Bangkok4.jpg';
+import bangkok5 from '../assets/Images/Bangkok/Bangkok5.jpg';
+import brae1 from '../assets/Images/Brae/brae1.jpg';
+import brae2 from '../assets/Images/Brae/brae2.jpg';
+import brae3 from '../assets/Images/Brae/brae3.jpg';
+import brae4 from '../assets/Images/Brae/brae4.jpg';
+import brae5 from '../assets/Images/Brae/brae5.jpg';
+import brae6 from '../assets/Images/Brae/brae6.jpg';
+import brae7 from '../assets/Images/Brae/brae7.jpg';
+import brae8 from '../assets/Images/Brae/brae8.jpg';
+import london1 from '../assets/Images/London/London1.jpg';
+import london2 from '../assets/Images/London/London2.jpg';
+import london3 from '../assets/Images/London/London3.jpg';
+import london4 from '../assets/Images/London/London4.jpg';
+import london5 from '../assets/Images/London/London5.jpg';
+import london6 from '../assets/Images/London/London6.jpg';
+import london7 from '../assets/Images/London/London7.jpg';
+import lquitos1 from '../assets/Images/Lquitos/Iquitos1.jpg';
+import lquitos2 from '../assets/Images/Lquitos/Iquitos2.jpg';
+import lquitos3 from '../assets/Images/Lquitos/Iquitos3.jpg';
+import lquitos4 from '../assets/Images/Lquitos/Iquitos4.jpg';
+import lquitos5 from '../assets/Images/Lquitos/Iquitos5.jpg';
+import lquitos6 from '../assets/Images/Lquitos/Iquitos6.jpg';
+import lquitos7 from '../assets/Images/Lquitos/Iquitos7.jpg';
+import magog1 from '../assets/Images/Magog/magog1.jpg';
+import magog2 from '../assets/Images/Magog/magog2.jpg';
+import magog3 from '../assets/Images/Magog/magog3.jpg';
+import magog4 from '../assets/Images/Magog/magog4.jpg';
+import magog5 from '../assets/Images/Magog/magog5.jpg';
+import magog6 from '../assets/Images/Magog/magog6.jpg';
+import magog7 from '../assets/Images/Magog/magog7.jpg';
+import magog8 from '../assets/Images/Magog/magog8.jpg';
+import magog9 from '../assets/Images/Magog/magog9.jpg';
+import mahe1 from '../assets/Images/Mahe/Mahe1.jpg';
+import mahe2 from '../assets/Images/Mahe/Mahe2.jpg';
+import mahe3 from '../assets/Images/Mahe/Mahe3.jpg';
+import mahe4 from '../assets/Images/Mahe/Mahe4.jpg';
+import mahe5 from '../assets/Images/Mahe/Mahe5.jpg';
+import mahe6 from '../assets/Images/Mahe/Mahe6.jpg';
+import mahe7 from '../assets/Images/Mahe/Mahe7.jpg';
+import mahe8 from '../assets/Images/Mahe/Mahe8.jpg';
+import mahe9 from '../assets/Images/Mahe/Mahe9.jpg';
+import paris1 from '../assets/Images/Paris/p1.jpg';
+import paris2 from '../assets/Images/Paris/p2.jpg';
+import paris3 from '../assets/Images/Paris/p3.jpg';
+import paris4 from '../assets/Images/Paris/p4.jpg';
+import paris5 from '../assets/Images/Paris/p5.jpg';
+import paris6 from '../assets/Images/Paris/p6.jpg';
+import paris7 from '../assets/Images/Paris/p7.jpg';
+import paris8 from '../assets/Images/Paris/p8.jpg';
+import paris9 from '../assets/Images/Paris/p9.jpg';
+import paris10 from '../assets/Images/Paris/p10.jpg';
+import paris11 from '../assets/Images/Paris/p10.jpg';
+import paris12 from '../assets/Images/Paris/p10.jpg';
+import sandbanks1 from '../assets/Images/Sandbanks/Sandbanks1.jpg';
+import sandbanks2 from '../assets/Images/Sandbanks/Sandbanks2.jpg';
+import sandbanks3 from '../assets/Images/Sandbanks/Sandbanks3.jpg';
+import sandbanks4 from '../assets/Images/Sandbanks/Sandbanks4.jpg';
+import sandbanks5 from '../assets/Images/Sandbanks/Sandbanks5.jpg';
+import sanfrancisco1 from '../assets/Images/Sanfrancisco/Sanfrancisco1.jpg';
+import sanfrancisco2 from '../assets/Images/Sanfrancisco/Sanfrancisco2.jpg';
+import sanfrancisco3 from '../assets/Images/Sanfrancisco/Sanfrancisco3.jpg';
+import sanfrancisco4 from '../assets/Images/Sanfrancisco/Sanfrancisco4.jpg';
+import sanfrancisco5 from '../assets/Images/Sanfrancisco/Sanfrancisco5.jpg';
+import sanfrancisco6 from '../assets/Images/Sanfrancisco/Sanfrancisco6.jpg';
+import sanfrancisco7 from '../assets/Images/Sanfrancisco/Sanfrancisco7.jpg';
+import sanfrancisco8 from '../assets/Images/Sanfrancisco/Sanfrancisco8.jpg';
+import stonetwon1 from '../assets/Images/Stonetown/Stonetown1.jpg';
+import stonetwon2 from '../assets/Images/Stonetown/Stonetown2.jpg';
+import stonetwon3 from '../assets/Images/Stonetown/Stonetown3.jpg';
+import stonetwon4 from '../assets/Images/Stonetown/Stonetown4.jpg';
+import stonetwon5 from '../assets/Images/Stonetown/Stonetown5.jpg';
+import stonetwon6 from '../assets/Images/Stonetown/Stonetown6.jpg';
+import stonetwon7 from '../assets/Images/Stonetown/Stonetown7.jpg';
+import stonetwon8 from '../assets/Images/Stonetown/Stonetown8.jpg';
+import stonetwon9 from '../assets/Images/Stonetown/Stonetown9.jpg';
+import tokyo1 from '../assets/Images/Tokyo/Tokyo1.jpg';
+import tokyo2 from '../assets/Images/Tokyo/Tokyo2.jpg';
+import tokyo3 from '../assets/Images/Tokyo/Tokyo3.jpg';
+import tokyo4 from '../assets/Images/Tokyo/Tokyo4.jpg';
+import tokyo5 from '../assets/Images/Tokyo/Tokyo5.jpg';
+import tokyo6 from '../assets/Images/Tokyo/Tokyo6.jpg';
+import tokyo7 from '../assets/Images/Tokyo/Tokyo7.jpg';
+import tokyo8 from '../assets/Images/Tokyo/Tokyo8.jpg';
+import vinson1 from '../assets/Images/Vinson/Vinson1.jpg';
+import vinson2 from '../assets/Images/Vinson/Vinson2.jpg';
+import vinson3 from '../assets/Images/Vinson/Vinson3.jpg';
+import vinson4 from '../assets/Images/Vinson/Vinson4.jpg';
+import vinson5 from '../assets/Images/Vinson/Vinson5.jpg';
+import vinson6 from '../assets/Images/Vinson/Vinson6.jpg';
+import vinson7 from '../assets/Images/Vinson/Vinson7.jpg';
+import zurich1 from '../assets/Images/Zurich/Zurich1.jpg';
+import zurich2 from '../assets/Images/Zurich/Zurich2.jpg';
+import zurich3 from '../assets/Images/Zurich/Zurich3.jpg';
+import zurich5 from '../assets/Images/Zurich/Zurich5.jpg';
+import zurich6 from '../assets/Images/Zurich/Zurich6.jpg';
+import zurich7 from '../assets/Images/Zurich/Zurich7.jpg';
+import zurich8 from '../assets/Images/Zurich/Zurich8.jpg';
+import zurich9 from '../assets/Images/Zurich/Zurich9.jpg';
 
 // Room data with multiple images
 export const roomsData = [
   {
-    id: 'deluxe-double-bath',
-    name: 'Deluxe Double Room with Bath',
-    type: 'Double Room',
-    price: 45 * 130,
+    id: 'aberdeer',
+    name: 'Aberdeer',
+    type: 'Aberdeer',
+    price: 2500,
     images: [
-      deluxeDoubleBath1,
-      deluxeDoubleBath2,
-      deluxeDoubleBath3,
-      deluxeDoubleBath4,
+      aberdeer1,
+      aberdeer2,
+      aberdeer3,
+      aberdeer4,
+      aberdeer5,
+      aberdeer6,
+      aberdeer7,
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Bath'],
@@ -75,18 +148,20 @@ export const roomsData = [
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Bath', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe']
   },
   {
-    id: 'deluxe-double-twin',
-    name: 'Deluxe Double or Twin Room',
-    type: 'Double/Twin Room',
-    price: 55 * 130,
+    id: 'agra',
+    name: 'Agra',
+    type: 'Agra',
+    price: 2500,
     images: [
-      deluxeDoubleTwin1,
-      deluxeDoubleTwin2,
-      deluxeDoubleTwin3,
-      deluxeDoubleTwin4,
-      deluxeDoubleTwin5,
-      deluxeDoubleTwin6,
-      deluxeDoubleTwin7,
+      agra1,
+      agra2,
+      agra3,
+      agra4,
+      agra5,
+      agra6,
+      agra7,
+      agra8,
+      agra9,
     ],
     capacity: 4,
     features: ['Garden View', 'Soundproofing', 'Extra Space'],
@@ -96,16 +171,16 @@ export const roomsData = [
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe', 'Extra pillows']
   },
   {
-    id: 'deluxe-double-standard',
-    name: 'Deluxe Double Room',
-    type: 'Double Room',
-    price: 50 * 130,
+    id: 'bangkok',
+    name: 'Bangkok',
+    type: 'Bangkok',
+    price: 2500,
     images: [
-      deluxeDoubleStandard1,
-      deluxeDoubleStandard2,
-      deluxeDoubleStandard3,
-      deluxeDoubleStandard4,
-      deluxeDoubleStandard5,
+      bangkok1,
+      bangkok3,
+      bangkok4,
+      bangkok5,
+      bangkok6,
     ],
     capacity: 2,
     features: ['Garden View', 'Flat-screen TV', 'Free WiFi'],
@@ -115,17 +190,19 @@ export const roomsData = [
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe']
   },
   {
-    id: 'deluxe-double-large',
-    name: 'Deluxe Double Room (Large)',
-    type: 'Double Room',
-    price: 55 * 130,
+    id: 'brae',
+    name: 'Brae',
+    type: 'Brae',
+    price: 2500,
     images: [
-      deluxeDoubleLarge1,
-      deluxeDoubleLarge2,
-      deluxeDoubleLarge3,
-      deluxeDoubleLarge4,
-      deluxeDoubleLarge5,
-      deluxeDoubleLarge6,
+      brae1,
+      brae2,
+      brae3,
+      brae4,
+      brae5,
+      brae6,
+      brae7,
+      brae8,
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Spacious'],
@@ -135,20 +212,18 @@ export const roomsData = [
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe', 'Seating area']
   },
   {
-    id: 'budget-double',
-    name: 'Budget Double Room',
-    type: 'Double Room',
-    price: 40 * 130,
+    id: 'london',
+    name: 'London',
+    type: 'London',
+    price: 2500,
     images: [
-      budgetDouble1,
-      budgetDouble2,
-      budgetDouble3,
-      budgetDouble4,
-      budgetDouble5,
-      budgetDouble6,
-      budgetDouble7,
-      budgetDouble8,
-      budgetDouble9,
+      london1,
+      london2,
+      london3,
+      london4,
+      london5,
+      london6,
+      london7,
     ],
     capacity: 2,
     features: ['Free WiFi', 'Breakfast Included'],
@@ -158,17 +233,18 @@ export const roomsData = [
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe']
   },
   {
-    id: 'deluxe-single',
-    name: 'Deluxe Single Room',
-    type: 'Single Room',
-    price: 35 * 130,
+    id: 'lquitos',
+    name: 'Lquitos',
+    type: 'Lquitos',
+    price: 2500,
     images: [
-      deluxeSingle1,
-      deluxeSingle2,
-      deluxeSingle3,
-      deluxeSingle4,
-      deluxeSingle5,
-      deluxeSingle6,
+      lquitos1,
+      lquitos2,
+      lquitos3,
+      lquitos4,
+      lquitos5,
+      lquitos6,
+      lquitos7,
     ],
     capacity: 1,
     features: ['Garden View', 'Free WiFi', 'Cozy'],
@@ -178,15 +254,20 @@ export const roomsData = [
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe']
   },
   {
-    id: 'deluxe-double-shower',
-    name: 'Deluxe Double Room with Shower',
-    type: 'Double Room',
-    price: 45 * 130,
+    id: 'magog',
+    name: 'Magog',
+    type: 'Magog',
+    price: 2500,
     images: [
-      deluxeDoubleShower1,
-      deluxeDoubleShower2,
-      deluxeDoubleShower3,
-      deluxeDoubleShower4,
+      magog1,
+      magog2,
+      magog3,
+      magog4,
+      magog5,
+      magog6,
+      magog7,
+      magog8,
+      magog9,
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Shower'],
@@ -196,18 +277,179 @@ export const roomsData = [
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe']
   },
   {
-    id: 'budget-double-premium',
-    name: 'Premium Budget Double Room',
-    type: 'Double Room',
-    price: 42 * 130,
+    id: 'mahe',
+    name: 'Mahe',
+    type: 'Mahe',
+    price: 3500,
     images: [
-      premiumBudgetDouble1,
-      premiumBudgetDouble2,
-      premiumBudgetDouble3,
-      premiumBudgetDouble4,
-      premiumBudgetDouble5,
-      premiumBudgetDouble6,
-      premiumBudgetDouble7,
+      mahe1,
+      mahe2,
+      mahe3,
+      mahe4,
+      mahe5,
+      mahe6,
+      mahe7,
+      mahe8,
+      mahe9,
+    ],
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9,
+    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
+  },
+  {
+    id: 'paris',
+    name: 'Paris',
+    type: 'Paris',
+    price: 2500,
+    images: [
+      paris1,
+      paris2,
+      paris3,
+      paris4,
+      paris5,
+      paris6,
+      paris7,
+      paris8,
+      paris9,
+      paris10,
+      paris11,
+      paris12,
+
+    ],
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9,
+    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
+  },
+  {
+    id: 'sandbanks',
+    name: 'Sandbanks',
+    type: 'Sandbanks',
+    price: 2500,
+    images: [
+      sandbanks1,
+      sandbanks2,
+      sandbanks3,
+      sandbanks4,
+      sandbanks5,
+    ],
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9,
+    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
+  },
+  {
+    id: 'sanfrancisco',
+    name: 'Sanfrancisco',
+    type: 'Sanfrancisco',
+    price: 2500,
+    images: [
+      sanfrancisco1,
+      sanfrancisco2,
+      sanfrancisco3,
+      sanfrancisco4,
+      sanfrancisco5,
+      sanfrancisco6,
+      sanfrancisco6,
+      sanfrancisco7,
+      sanfrancisco8,
+    ],
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9,
+    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
+  },
+  {
+    id: 'stonetown',
+    name: 'Stonetown',
+    type: 'Stonetown',
+    price: 2500,
+    images: [
+      stonetwon1,
+      stonetwon2,
+      stonetwon3,
+      stonetwon4,
+      stonetwon5,
+      stonetwon6,
+      stonetwon7,
+      stonetwon8,
+      stonetwon9,
+      
+    ],
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9,
+    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
+  },
+  {
+    id: 'tokyo',
+    name: 'Tokyo',
+    type: 'Tokyo',
+    price: 2500,
+    images: [
+      tokyo1,
+      tokyo2,
+      tokyo3,
+      tokyo4,
+      tokyo5,
+      tokyo6,
+      tokyo7,
+      tokyo8,
+    ],
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9,
+    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
+  },
+  {
+    id: 'vinson',
+    name: 'Vinson',
+    type: 'Vinson',
+    price: 2500,
+    images: [
+      vinson1,
+      vinson2,
+      vinson3,
+      vinson4,
+      vinson5,
+      vinson6,
+      vinson7,
+    ],
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9,
+    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
+  },
+  {
+    id: 'zurich',
+    name: 'Zurich',
+    type: 'Zurich',
+    price: 2500,
+    images: [
+      zurich1,
+      zurich2,
+      zurich3,
+      zurich5,
+      zurich6,
+      zurich7,
+      zurich8,
+      zurich9,
+    
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
