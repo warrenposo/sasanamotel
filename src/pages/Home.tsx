@@ -6,13 +6,11 @@ import SectionHeading from '../components/SectionHeading';
 import AmenityCard from '../components/AmenityCard';
 import RoomCard from '../components/RoomCard';
 import TestimonialCarousel from '../components/TestimonialCarousel';
-
-// Updated import paths - ensure these match your actual file structure
-import mahe1 from "@/assets/images/mahe/mahe8.jpg";
-import aberdeen from '@/assets/images/aberdeer/aberdeer3.jpg';
-import agra from '@/assets/images/agra/agra7.jpg';
-import paris from '@/assets/images/paris/p12.jpg';
-import mahe from '@/assets/images/mahe/mahe8.jpg';
+import mahe1 from "@/assets/Images/Mahe/Mahe8.jpg";
+import aberdeen from '@/assets/Images/Aberdeer/Aberdeer3.jpg';
+import agra from '@/assets/Images/Agra/Agra7.jpg';
+import paris from '@/assets/Images/Paris/p12.jpg';
+import mahe from '@/assets/Images/Mahe/Mahe8.jpg';
 
 const featuredRooms = [
   {
