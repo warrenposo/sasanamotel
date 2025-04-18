@@ -2,7 +2,7 @@ import React from 'react';
 import SectionHeading from '../components/SectionHeading';
 import RoomCard from '../components/RoomCard';
 import { BedDouble, User, Users, Bath, Droplet } from 'lucide-react';
-import aberdeer from '@/assets/Images/Aberdeer/Aberdeer3.png';
+import aberdeer from '../assets/Images/Aberdeer/Aberdeer3.png';
 import agra from '@/assets/Images/Agra/Agra4.png';
 import bangkok from '@/assets/Images/Bangkok/Bangkok3.png';
 import brae from '@/assets/Images/Brae/brae7.png';
