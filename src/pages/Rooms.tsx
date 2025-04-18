@@ -14,9 +14,9 @@ import { Link } from 'react-router-dom';
 
 const rooms = [
   {
-    id: 'deluxe-double-bath',
-    name: 'Deluxe Double Room with Bath',
-    type: 'Double Room',
+    id: 'aberdeer',
+    name: 'Aberdeer',
+    type: 'Aberdeer',
     price: 45 * 130,
     image: deluxeDoubleBathImage,  // Using local image instead of URL
     capacity: 2,
@@ -25,9 +25,9 @@ const rooms = [
     available: 4
   },
   {
-    id: 'deluxe-double-twin',
-    name: 'Deluxe Double or Twin Room',
-    type: 'Double/Twin Room',
+    id: 'agra',
+    name: 'Agra',
+    type: 'Agra',
     price: 55 * 130,
     image: deluxeDoubleTwinImage,  // Using local image instead of URL
     capacity: 4,
@@ -36,9 +36,9 @@ const rooms = [
     available: 7
   },
   {
-    id: 'deluxe-double-standard',
-    name: 'Deluxe Double Room',
-    type: 'Double Room',
+    id: 'bangkok',
+    name: 'Bangkok',
+    type: 'Bangkok',
     price: 50 * 130,
     image: deluxeDoubleStandardImage,  // Using local image instead of URL
     capacity: 2,
@@ -47,9 +47,9 @@ const rooms = [
     available: 4
   },
   {
-    id: 'deluxe-double-large',
-    name: 'Deluxe Double Room (Large)',
-    type: 'Double Room',
+    id: 'brae',
+    name: 'Brae',
+    type: 'Brae',
     price: 55 * 130,
     image: deluxeDoubleLargeImage,  // Using local image instead of URL
     capacity: 2,
@@ -58,9 +58,9 @@ const rooms = [
     available: 5
   },
   {
-    id: 'budget-double',
-    name: 'Budget Double Room',
-    type: 'Double Room',
+    id: 'london',
+    name: 'London',
+    type: 'London',
     price: 40 * 130,
     image: budgetDoubleImage,  // Using local image instead of URL
     capacity: 2,
@@ -69,9 +69,9 @@ const rooms = [
     available: 6
   },
   {
-    id: 'deluxe-single',
-    name: 'Deluxe Single Room',
-    type: 'Single Room',
+    id: 'lquitos',
+    name: 'Lquitos',
+    type: 'Lquitos',
     price: 35 * 130,
     image: deluxeSingleImage,  // Using local image instead of URL
     capacity: 1,
@@ -80,9 +80,9 @@ const rooms = [
     available: 6
   },
   {
-    id: 'deluxe-double-shower',
-    name: 'Deluxe Double Room with Shower',
-    type: 'Double Room',
+    id: 'magog',
+    name: 'Magog',
+    type: 'Mahod',
     price: 45 * 130,
     image: deluxeDoubleShowerImage,  // Using local image
     capacity: 2,
@@ -91,9 +91,86 @@ const rooms = [
     available: 6
   },
   {
-    id: 'budget-double-premium',
-    name: 'Premium Budget Double Room',
-    type: 'Double Room',
+    id: 'mahe',
+    name: 'Mahe',
+    type: 'Mahe',
+    price: 42 * 130,
+    image: premiumBudgetDoubleImage,  // Using local image
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9
+  },
+  {
+    id: 'paris',
+    name: 'Paris',
+    type: 'Paris',
+    price: 42 * 130,
+    image: premiumBudgetDoubleImage,  // Using local image
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9
+  },
+  {
+    id: 'sandbanks',
+    name: 'Sandbanks',
+    type: 'Sandbanks',
+    price: 42 * 130,
+    image: premiumBudgetDoubleImage,  // Using local image
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9
+  },
+  {
+    id: 'sanfrancisco',
+    name: 'Sanfrancisco',
+    type: 'Sanfrancisco',
+    price: 42 * 130,
+    image: premiumBudgetDoubleImage,  // Using local image
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9
+  },
+  {
+    id: 'stonetown',
+    name: 'Stonetown',
+    type: 'Stonetown',
+    price: 42 * 130,
+    image: premiumBudgetDoubleImage,  // Using local image
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9
+  },
+  {
+    id: 'tokyo',
+    name: 'Tokyo',
+    type: 'Tokyo',
+    price: 42 * 130,
+    image: premiumBudgetDoubleImage,  // Using local image
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9
+  },
+  {
+    id: 'vinson',
+    name: 'Vinson',
+    type: 'Vinson',
+    price: 42 * 130,
+    image: premiumBudgetDoubleImage,  // Using local image
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9
+  },
+  {
+    id: 'zurich',
+    name: 'Zurich',
+    type: 'Zurich',
     price: 42 * 130,
     image: premiumBudgetDoubleImage,  // Using local image
     capacity: 2,
