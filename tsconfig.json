@@ -11,9 +11,12 @@
     },
     "allowJs": true,
     "skipLibCheck": true,
+    "noEmit": true,
     "noImplicitAny": false,
     "noUnusedParameters": false,
     "noUnusedLocals": false,
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
   }
 }
