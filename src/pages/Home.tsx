@@ -6,11 +6,11 @@ import SectionHeading from '../components/SectionHeading';
 import AmenityCard from '../components/AmenityCard';
 import RoomCard from '../components/RoomCard';
 import TestimonialCarousel from '../components/TestimonialCarousel';
-import mahe1 from "@/assets/Images/Mahe/Mahe8.jpg";
-import aberdeen from '@/assets/Images/Aberdeer/Aberdeer3.jpg';
-import agra from '@/assets/Images/Agra/Agra7.jpg';
-import paris from '@/assets/Images/Paris/p12.jpg';
-import mahe from '@/assets/Images/Mahe/Mahe8.jpg';
+import mahe1 from '@/assets/Images/Mahe/Mahe8.png';
+import aberdeen from '@/assets/Images/Aberdeer/Aberdeer3.png';
+import agra from '@/assets/Images/Agra/Agra7.png';
+import paris from '@/assets/Images/Paris/p12.png';
+import mahe from '@/assets/Images/Mahe/Mahe8.png';
 
 const featuredRooms = [
   {
@@ -237,26 +237,6 @@ const Home = () => {
                 <Link to="/rooms">View All Rooms</Link>
               </Button>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-sage-50">
-        <div className="container mx-auto px-4">
-          <SectionHeading 
-            title="What Our Guests Say" 
-            subtitle="Don't just take our word for it - hear from our satisfied guests."
-            centered
-          />
-          
-          <div className="max-w-4xl mx-auto">
-            <TestimonialCarousel testimonials={testimonials} />
-          </div>
-          
-          <div className="text-center mt-12">
-            <Button asChild variant="outline">
-              <Link to="/reviews">Read All Reviews</Link>
-            </Button>
           </div>
         </div>
       </section>

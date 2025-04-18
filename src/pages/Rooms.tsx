@@ -2,21 +2,21 @@ import React from 'react';
 import SectionHeading from '../components/SectionHeading';
 import RoomCard from '../components/RoomCard';
 import { BedDouble, User, Users, Bath, Droplet } from 'lucide-react';
-import aberdeer from '@/assets/Images/Aberdeer/Aberdeer3.jpg';
-import agra from '@/assets/Images/Agra/Agra4.jpg';
-import bangkok from '@/assets/Images/Bangkok/Bangkok3.jpg';
-import brae from '@/assets/Images/Brae/brae7.jpg';
-import london from '@/assets/Images/London/London5.jpg';
-import lquitos from '@/assets/Images/Lquitos/Iquitos2.jpg';
-import magog from '@/assets/Images/Magog/magog9.jpg';
-import mahe from '@/assets/Images/Mahe/Mahe3.jpg';
-import paris from '@/assets/Images/Paris/p11.jpg';
-import sandbanks from '@/assets/Images/Sandbanks/Sandbanks1.jpg';
-import sanfrancisco from '@/assets/Images/Sanfrancisco/Sanfrancisco4.jpg';
-import stonetown from '@/assets/Images/Stonetown/Stonetown9.jpg';
-import tokyo from '@/assets/Images/Tokyo/Tokyo4.jpg';
-import vinson from '@/assets/Images/Vinson/Vinson4.jpg';
-import zurich from '@/assets/Images/Zurich/Zurich2.jpg';
+import aberdeer from '@/assets/Images/Aberdeer/Aberdeer3.png';
+import agra from '@/assets/Images/Agra/Agra4.png';
+import bangkok from '@/assets/Images/Bangkok/Bangkok3.png';
+import brae from '@/assets/Images/Brae/brae7.png';
+import london from '@/assets/Images/London/London5.png';
+import lquitos from '@/assets/Images/Lquitos/Iquitos2.png';
+import magog from '@/assets/Images/Magog/magog9.png';
+import mahe from '@/assets/Images/Mahe/Mahe3.png';
+import paris from '@/assets/Images/Paris/p11.png';
+import sandbanks from '@/assets/Images/Sandbanks/Sandbanks1.png';
+import sanfrancisco from '@/assets/Images/Sanfrancisco/Sanfrancisco4.png';
+import stonetown from '@/assets/Images/Stonetown/Stonetown9.png';
+import tokyo from '@/assets/Images/Tokyo/Tokyo4.png';
+import vinson from '@/assets/Images/Vinson/Vinson4.png';
+import zurich from '@/assets/Images/Zurich/Zurich2.png';
 import { Link } from 'react-router-dom';
 
 const rooms = [
@@ -25,7 +25,7 @@ const rooms = [
     name: 'Aberdeer',
     type: 'Aberdeer',
     price: 2500,
-    image: aberdeer,  // Using local image instead of URL
+    image: aberdeer,
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Bath'],
     size: '16 m²',
@@ -36,7 +36,7 @@ const rooms = [
     name: 'Agra',
     type: 'Agra',
     price: 2500,
-    image: agra,  // Using local image instead of URL
+    image: agra,
     capacity: 4,
     features: ['Garden View', 'Soundproofing', 'Extra Space'],
     size: '24 m²',
@@ -47,7 +47,7 @@ const rooms = [
     name: 'Bangkok',
     type: 'Bangkok',
     price: 2500,
-    image: bangkok,  // Using local image instead of URL
+    image: bangkok,
     capacity: 2,
     features: ['Garden View', 'Flat-screen TV', 'Free WiFi'],
     size: '16 m²',
@@ -58,7 +58,7 @@ const rooms = [
     name: 'Brae',
     type: 'Brae',
     price: 2500,
-    image: brae,  // Using local image instead of URL
+    image: brae,
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Spacious'],
     size: '25 m²',
@@ -69,7 +69,7 @@ const rooms = [
     name: 'London',
     type: 'London',
     price: 2500,
-    image: london,  // Using local image instead of URL
+    image: london,
     capacity: 2,
     features: ['Free WiFi', 'Breakfast Included'],
     size: '16 m²',
@@ -80,7 +80,7 @@ const rooms = [
     name: 'Lquitos',
     type: 'Lquitos',
     price: 2500,
-    image: lquitos,  // Using local image instead of URL
+    image: lquitos,
     capacity: 1,
     features: ['Garden View', 'Free WiFi', 'Cozy'],
     size: '10 m²',
@@ -91,7 +91,7 @@ const rooms = [
     name: 'Magog',
     type: 'Mahod',
     price: 2500,
-    image: magog,  // Using local image
+    image: magog,
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Shower'],
     size: '16 m²',
@@ -102,7 +102,7 @@ const rooms = [
     name: 'Mahe',
     type: 'Mahe',
     price: 3500,
-    image: mahe,  // Using local image
+    image: mahe,
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
@@ -113,7 +113,7 @@ const rooms = [
     name: 'Paris',
     type: 'Paris',
     price: 2500,
-    image: paris,  // Using local image
+    image: paris,
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
@@ -124,7 +124,7 @@ const rooms = [
     name: 'Sandbanks',
     type: 'Sandbanks',
     price: 2500,
-    image: sandbanks,  // Using local image
+    image: sandbanks,
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
@@ -135,7 +135,7 @@ const rooms = [
     name: 'Sanfrancisco',
     type: 'Sanfrancisco',
     price: 2500,
-    image: sanfrancisco,  // Using local image
+    image: sanfrancisco,
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
@@ -146,7 +146,7 @@ const rooms = [
     name: 'Stonetown',
     type: 'Stonetown',
     price: 2500,
-    image: stonetown,  // Using local image
+    image: stonetown,
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
@@ -157,7 +157,7 @@ const rooms = [
     name: 'Tokyo',
     type: 'Tokyo',
     price: 2500,
-    image: tokyo,  // Using local image
+    image: tokyo,
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
@@ -168,7 +168,7 @@ const rooms = [
     name: 'Vinson',
     type: 'Vinson',
     price: 2500,
-    image: vinson,  // Using local image
+    image: vinson,
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
@@ -179,7 +179,7 @@ const rooms = [
     name: 'Zurich',
     type: 'Zurich',
     price: 2500,
-    image: zurich,  // Using local image
+    image: zurich,
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',

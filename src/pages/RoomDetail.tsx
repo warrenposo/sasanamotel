@@ -5,124 +5,124 @@ import SectionHeading from '../components/SectionHeading';
 import { Button } from '../components/ui/button';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '../components/ui/carousel';
 import { Card, CardContent } from '../components/ui/card';
-import aberdeer1 from '@/assets/Images/Aberdeer/Aberdeer1.jpg';
-import aberdeer2 from '@/assets/Images/Aberdeer/Aberdeer2.jpg';
-import aberdeer3 from '@/assets/Images/Aberdeer/Aberdeer3.jpg';
-import aberdeer4 from '@/assets/Images/Aberdeer/Aberdeer4.jpg';
-import aberdeer5 from '@/assets/Images/Aberdeer/Aberdeer5.jpg';
-import aberdeer6 from '@/assets/Images/Aberdeer/Aberdeer6.jpg';
-import aberdeer7 from '@/assets/Images/Aberdeer/Aberdeer7.jpg';
-import agra1 from '@/assets/Images/Agra/Agra1.jpg';
-import agra2 from '@/assets/Images/Agra/Agra2.jpg';
-import agra3 from '@/assets/Images/Agra/Agra3.jpg';
-import agra4 from '@/assets/Images/Agra/Agra4.jpg';
-import agra5 from '@/assets/Images/Agra/Agra5.jpg';
-import agra6 from '@/assets/Images/Agra/Agra6.jpg';
-import agra7 from '@/assets/Images/Agra/Agra7.jpg';
-import agra8 from '@/assets/Images/Agra/Agra8.jpg';
-import agra9 from '@/assets/Images/Agra/Agra9.jpg';
-import bangkok1 from '@/assets/Images/Bangkok/Bangkok1.jpg';
-import bangkok3 from '@/assets/Images/Bangkok/Bangkok3.jpg';
-import bangkok6 from '@/assets/Images/Bangkok/Bangkok6.jpg';
-import bangkok4 from '@/assets/Images/Bangkok/Bangkok4.jpg';
-import bangkok5 from '@/assets/Images/Bangkok/Bangkok5.jpg';
-import brae1 from '@/assets/Images/Brae/brae1.jpg';
-import brae2 from '@/assets/Images/Brae/brae2.jpg';
-import brae3 from '@/assets/Images/Brae/brae3.jpg';
-import brae4 from '@/assets/Images/Brae/brae4.jpg';
-import brae5 from '@/assets/Images/Brae/brae5.jpg';
-import brae6 from '@/assets/Images/Brae/brae6.jpg';
-import brae7 from '@/assets/Images/Brae/brae7.jpg';
-import brae8 from '@/assets/Images/Brae/brae8.jpg';
-import london1 from '@/assets/Images/London/London1.jpg';
-import london2 from '@/assets/Images/London/London2.jpg';
-import london3 from '@/assets/Images/London/London3.jpg';
-import london4 from '@/assets/Images/London/London4.jpg';
-import london5 from '@/assets/Images/London/London5.jpg';
-import london6 from '@/assets/Images/London/London6.jpg';
-import london7 from '@/assets/Images/London/London7.jpg';
-import lquitos1 from '@/assets/Images/Lquitos/Iquitos1.jpg';
-import lquitos2 from '@/assets/Images/Lquitos/Iquitos2.jpg';
-import lquitos3 from '@/assets/Images/Lquitos/Iquitos3.jpg';
-import lquitos4 from '@/assets/Images/Lquitos/Iquitos4.jpg';
-import lquitos5 from '@/assets/Images/Lquitos/Iquitos5.jpg';
-import lquitos6 from '@/assets/Images/Lquitos/Iquitos6.jpg';
-import lquitos7 from '@/assets/Images/Lquitos/Iquitos7.jpg';
-import magog1 from '@/assets/Images/Magog/magog1.jpg';
-import magog2 from '@/assets/Images/Magog/magog2.jpg';
-import magog3 from '@/assets/Images/Magog/magog3.jpg';
-import magog4 from '@/assets/Images/Magog/magog4.jpg';
-import magog5 from '@/assets/Images/Magog/magog5.jpg';
-import magog6 from '@/assets/Images/Magog/magog6.jpg';
-import magog7 from '@/assets/Images/Magog/magog7.jpg';
-import magog8 from '@/assets/Images/Magog/magog8.jpg';
-import magog9 from '@/assets/Images/Magog/magog9.jpg';
-import mahe1 from '@/assets/Images/Mahe/Mahe1.jpg';
-import mahe2 from '@/assets/Images/Mahe/Mahe2.jpg';
-import mahe3 from '@/assets/Images/Mahe/Mahe3.jpg';
-import mahe4 from '@/assets/Images/Mahe/Mahe4.jpg';
-import mahe5 from '@/assets/Images/Mahe/Mahe5.jpg';
-import mahe6 from '@/assets/Images/Mahe/Mahe6.jpg';
-import mahe7 from '@/assets/Images/Mahe/Mahe7.jpg';
-import mahe8 from '@/assets/Images/Mahe/Mahe8.jpg';
-import mahe9 from '@/assets/Images/Mahe/Mahe9.jpg';
-import paris1 from '@/assets/Images/Paris/p1.jpg';
-import paris2 from '@/assets/Images/Paris/p2.jpg';
-import paris3 from '@/assets/Images/Paris/p3.jpg';
-import paris4 from '@/assets/Images/Paris/p4.jpg';
-import paris5 from '@/assets/Images/Paris/p5.jpg';
-import paris6 from '@/assets/Images/Paris/p6.jpg';
-import paris7 from '@/assets/Images/Paris/p7.jpg';
-import paris8 from '@/assets/Images/Paris/p8.jpg';
-import paris9 from '@/assets/Images/Paris/p9.jpg';
-import paris10 from '@/assets/Images/Paris/p10.jpg';
-import paris11 from '@/assets/Images/Paris/p10.jpg';
-import paris12 from '@/assets/Images/Paris/p10.jpg';
-import sandbanks1 from '@/assets/Images/Sandbanks/Sandbanks1.jpg';
-import sandbanks2 from '@/assets/Images/Sandbanks/Sandbanks2.jpg';
-import sandbanks3 from '@/assets/Images/Sandbanks/Sandbanks3.jpg';
-import sandbanks4 from '@/assets/Images/Sandbanks/Sandbanks4.jpg';
-import sandbanks5 from '@/assets/Images/Sandbanks/Sandbanks5.jpg';
-import sanfrancisco1 from '@/assets/Images/Sanfrancisco/Sanfrancisco1.jpg';
-import sanfrancisco2 from '@/assets/Images/Sanfrancisco/Sanfrancisco2.jpg';
-import sanfrancisco3 from '@/assets/Images/Sanfrancisco/Sanfrancisco3.jpg';
-import sanfrancisco4 from '@/assets/Images/Sanfrancisco/Sanfrancisco4.jpg';
-import sanfrancisco5 from '@/assets/Images/Sanfrancisco/Sanfrancisco5.jpg';
-import sanfrancisco6 from '@/assets/Images/Sanfrancisco/Sanfrancisco6.jpg';
-import sanfrancisco7 from '@/assets/Images/Sanfrancisco/Sanfrancisco7.jpg';
-import sanfrancisco8 from '@/assets/Images/Sanfrancisco/Sanfrancisco8.jpg';
-import stonetwon1 from '@/assets/Images/Stonetown/Stonetown1.jpg';
-import stonetwon2 from '@/assets/Images/Stonetown/Stonetown2.jpg';
-import stonetwon3 from '@/assets/Images/Stonetown/Stonetown3.jpg';
-import stonetwon4 from '@/assets/Images/Stonetown/Stonetown4.jpg';
-import stonetwon5 from '@/assets/Images/Stonetown/Stonetown5.jpg';
-import stonetwon6 from '@/assets/Images/Stonetown/Stonetown6.jpg';
-import stonetwon7 from '@/assets/Images/Stonetown/Stonetown7.jpg';
-import stonetwon8 from '@/assets/Images/Stonetown/Stonetown8.jpg';
-import stonetwon9 from '@/assets/Images/Stonetown/Stonetown9.jpg';
-import tokyo1 from '@/assets/Images/Tokyo/Tokyo1.jpg';
-import tokyo2 from '@/assets/Images/Tokyo/Tokyo2.jpg';
-import tokyo3 from '@/assets/Images/Tokyo/Tokyo3.jpg';
-import tokyo4 from '@/assets/Images/Tokyo/Tokyo4.jpg';
-import tokyo5 from '@/assets/Images/Tokyo/Tokyo5.jpg';
-import tokyo6 from '@/assets/Images/Tokyo/Tokyo6.jpg';
-import tokyo7 from '@/assets/Images/Tokyo/Tokyo7.jpg';
-import tokyo8 from '@/assets/Images/Tokyo/Tokyo8.jpg';
-import vinson1 from '@/assets/Images/Vinson/Vinson1.jpg';
-import vinson2 from '@/assets/Images/Vinson/Vinson2.jpg';
-import vinson3 from '@/assets/Images/Vinson/Vinson3.jpg';
-import vinson4 from '@/assets/Images/Vinson/Vinson4.jpg';
-import vinson5 from '@/assets/Images/Vinson/Vinson5.jpg';
-import vinson6 from '@/assets/Images/Vinson/Vinson6.jpg';
-import vinson7 from '@/assets/Images/Vinson/Vinson7.jpg';
-import zurich1 from '@/assets/Images/Zurich/Zurich1.jpg';
-import zurich2 from '@/assets/Images/Zurich/Zurich2.jpg';
-import zurich3 from '@/assets/Images/Zurich/Zurich3.jpg';
-import zurich5 from '@/assets/Images/Zurich/Zurich5.jpg';
-import zurich6 from '@/assets/Images/Zurich/Zurich6.jpg';
-import zurich7 from '@/assets/Images/Zurich/Zurich7.jpg';
-import zurich8 from '@/assets/Images/Zurich/Zurich8.jpg';
-import zurich9 from '@/assets/Images/Zurich/Zurich9.jpg';
+import aberdeer1 from '@/assets/Images/Aberdeer/Aberdeer1.png';
+import aberdeer2 from '@/assets/Images/Aberdeer/Aberdeer2.png';
+import aberdeer3 from '@/assets/Images/Aberdeer/Aberdeer3.png';
+import aberdeer4 from '@/assets/Images/Aberdeer/Aberdeer4.png';
+import aberdeer5 from '@/assets/Images/Aberdeer/Aberdeer5.png';
+import aberdeer6 from '@/assets/Images/Aberdeer/Aberdeer6.png';
+import aberdeer7 from '@/assets/Images/Aberdeer/Aberdeer7.png';
+import agra1 from '@/assets/Images/Agra/Agra1.png';
+import agra2 from '@/assets/Images/Agra/Agra2.png';
+import agra3 from '@/assets/Images/Agra/Agra3.png';
+import agra4 from '@/assets/Images/Agra/Agra4.png';
+import agra5 from '@/assets/Images/Agra/Agra5.png';
+import agra6 from '@/assets/Images/Agra/Agra6.png';
+import agra7 from '@/assets/Images/Agra/Agra7.png';
+import agra8 from '@/assets/Images/Agra/Agra8.png';
+import agra9 from '@/assets/Images/Agra/Agra9.png';
+import bangkok1 from '@/assets/Images/Bangkok/Bangkok1.png';
+import bangkok3 from '@/assets/Images/Bangkok/Bangkok3.png';
+import bangkok6 from '@/assets/Images/Bangkok/Bangkok6.png';
+import bangkok4 from '@/assets/Images/Bangkok/Bangkok4.png';
+import bangkok5 from '@/assets/Images/Bangkok/Bangkok5.png';
+import brae1 from '@/assets/Images/Brae/brae1.png';
+import brae2 from '@/assets/Images/Brae/brae2.png';
+import brae3 from '@/assets/Images/Brae/brae3.png';
+import brae4 from '@/assets/Images/Brae/brae4.png';
+import brae5 from '@/assets/Images/Brae/brae5.png';
+import brae6 from '@/assets/Images/Brae/brae6.png';
+import brae7 from '@/assets/Images/Brae/brae7.png';
+import brae8 from '@/assets/Images/Brae/brae8.png';
+import london1 from '@/assets/Images/London/London1.png';
+import london2 from '@/assets/Images/London/London2.png';
+import london3 from '@/assets/Images/London/London3.png';
+import london4 from '@/assets/Images/London/London4.png';
+import london5 from '@/assets/Images/London/London5.png';
+import london6 from '@/assets/Images/London/London6.png';
+import london7 from '@/assets/Images/London/London7.png';
+import lquitos1 from '@/assets/Images/Lquitos/Iquitos1.png';
+import lquitos2 from '@/assets/Images/Lquitos/Iquitos2.png';
+import lquitos3 from '@/assets/Images/Lquitos/Iquitos3.png';
+import lquitos4 from '@/assets/Images/Lquitos/Iquitos4.png';
+import lquitos5 from '@/assets/Images/Lquitos/Iquitos5.png';
+import lquitos6 from '@/assets/Images/Lquitos/Iquitos6.png';
+import lquitos7 from '@/assets/Images/Lquitos/Iquitos7.png';
+import magog1 from '@/assets/Images/Magog/magog1.png';
+import magog2 from '@/assets/Images/Magog/magog2.png';
+import magog3 from '@/assets/Images/Magog/magog3.png';
+import magog4 from '@/assets/Images/Magog/magog4.png';
+import magog5 from '@/assets/Images/Magog/magog5.png';
+import magog6 from '@/assets/Images/Magog/magog6.png';
+import magog7 from '@/assets/Images/Magog/magog7.png';
+import magog8 from '@/assets/Images/Magog/magog8.png';
+import magog9 from '@/assets/Images/Magog/magog9.png';
+import mahe1 from '@/assets/Images/Mahe/Mahe1.png';
+import mahe2 from '@/assets/Images/Mahe/Mahe2.png';
+import mahe3 from '@/assets/Images/Mahe/Mahe3.png';
+import mahe4 from '@/assets/Images/Mahe/Mahe4.png';
+import mahe5 from '@/assets/Images/Mahe/Mahe5.png';
+import mahe6 from '@/assets/Images/Mahe/Mahe6.png';
+import mahe7 from '@/assets/Images/Mahe/Mahe7.png';
+import mahe8 from '@/assets/Images/Mahe/Mahe8.png';
+import mahe9 from '@/assets/Images/Mahe/Mahe9.png';
+import paris1 from '@/assets/Images/Paris/p1.png';
+import paris2 from '@/assets/Images/Paris/p2.png';
+import paris3 from '@/assets/Images/Paris/p3.png';
+import paris4 from '@/assets/Images/Paris/p4.png';
+import paris5 from '@/assets/Images/Paris/p5.png';
+import paris6 from '@/assets/Images/Paris/p6.png';
+import paris7 from '@/assets/Images/Paris/p7.png';
+import paris8 from '@/assets/Images/Paris/p8.png';
+import paris9 from '@/assets/Images/Paris/p9.png';
+import paris10 from '@/assets/Images/Paris/p10.png';
+import paris11 from '@/assets/Images/Paris/p10.png';
+import paris12 from '@/assets/Images/Paris/p10.png';
+import sandbanks1 from '@/assets/Images/Sandbanks/Sandbanks1.png';
+import sandbanks2 from '@/assets/Images/Sandbanks/Sandbanks2.png';
+import sandbanks3 from '@/assets/Images/Sandbanks/Sandbanks3.png';
+import sandbanks4 from '@/assets/Images/Sandbanks/Sandbanks4.png';
+import sandbanks5 from '@/assets/Images/Sandbanks/Sandbanks5.png';
+import sanfrancisco1 from '@/assets/Images/Sanfrancisco/Sanfrancisco1.png';
+import sanfrancisco2 from '@/assets/Images/Sanfrancisco/Sanfrancisco2.png';
+import sanfrancisco3 from '@/assets/Images/Sanfrancisco/Sanfrancisco3.png';
+import sanfrancisco4 from '@/assets/Images/Sanfrancisco/Sanfrancisco4.png';
+import sanfrancisco5 from '@/assets/Images/Sanfrancisco/Sanfrancisco5.png';
+import sanfrancisco6 from '@/assets/Images/Sanfrancisco/Sanfrancisco6.png';
+import sanfrancisco7 from '@/assets/Images/Sanfrancisco/Sanfrancisco7.png';
+import sanfrancisco8 from '@/assets/Images/Sanfrancisco/Sanfrancisco8.png';
+import stonetwon1 from '@/assets/Images/Stonetown/Stonetown1.png';
+import stonetwon2 from '@/assets/Images/Stonetown/Stonetown2.png';
+import stonetwon3 from '@/assets/Images/Stonetown/Stonetown3.png';
+import stonetwon4 from '@/assets/Images/Stonetown/Stonetown4.png';
+import stonetwon5 from '@/assets/Images/Stonetown/Stonetown5.png';
+import stonetwon6 from '@/assets/Images/Stonetown/Stonetown6.png';
+import stonetwon7 from '@/assets/Images/Stonetown/Stonetown7.png';
+import stonetwon8 from '@/assets/Images/Stonetown/Stonetown8.png';
+import stonetwon9 from '@/assets/Images/Stonetown/Stonetown9.png';
+import tokyo1 from '@/assets/Images/Tokyo/Tokyo1.png';
+import tokyo2 from '@/assets/Images/Tokyo/Tokyo2.png';
+import tokyo3 from '@/assets/Images/Tokyo/Tokyo3.png';
+import tokyo4 from '@/assets/Images/Tokyo/Tokyo4.png';
+import tokyo5 from '@/assets/Images/Tokyo/Tokyo5.png';
+import tokyo6 from '@/assets/Images/Tokyo/Tokyo6.png';
+import tokyo7 from '@/assets/Images/Tokyo/Tokyo7.png';
+import tokyo8 from '@/assets/Images/Tokyo/Tokyo8.png';
+import vinson1 from '@/assets/Images/Vinson/Vinson1.png';
+import vinson2 from '@/assets/Images/Vinson/Vinson2.png';
+import vinson3 from '@/assets/Images/Vinson/Vinson3.png';
+import vinson4 from '@/assets/Images/Vinson/Vinson4.png';
+import vinson5 from '@/assets/Images/Vinson/Vinson5.png';
+import vinson6 from '@/assets/Images/Vinson/Vinson6.png';
+import vinson7 from '@/assets/Images/Vinson/Vinson7.png';
+import zurich1 from '@/assets/Images/Zurich/Zurich1.png';
+import zurich2 from '@/assets/Images/Zurich/Zurich2.png';
+import zurich3 from '@/assets/Images/Zurich/Zurich3.png';
+import zurich5 from '@/assets/Images/Zurich/Zurich5.png';
+import zurich6 from '@/assets/Images/Zurich/Zurich6.png';
+import zurich7 from '@/assets/Images/Zurich/Zurich7.png';
+import zurich8 from '@/assets/Images/Zurich/Zurich8.png';
+import zurich9 from '@/assets/Images/Zurich/Zurich9.png';
 
 // Room data with multiple images
 export const roomsData = [
@@ -317,7 +317,6 @@ export const roomsData = [
       paris10,
       paris11,
       paris12,
-
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
@@ -383,7 +382,6 @@ export const roomsData = [
       stonetwon7,
       stonetwon8,
       stonetwon9,
-      
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
@@ -460,9 +458,9 @@ export const roomsData = [
 ];
 
 const RoomDetail = () => {
-  const { id } = useParams<{ id: string }>();
+  const { id } = useParams();
   const room = roomsData.find(room => room.id === id);
-  
+
   if (!room) {
     return (
       <div className="container mx-auto px-4 py-16">
@@ -476,7 +474,7 @@ const RoomDetail = () => {
       </div>
     );
   }
-  
+
   return (
     <div className="container mx-auto px-4 py-8 md:py-16">
       {/* Back button */}
@@ -484,13 +482,13 @@ const RoomDetail = () => {
         <ArrowLeft size={18} className="mr-2" />
         Back to all rooms
       </Link>
-      
+
       {/* Room title */}
       <SectionHeading 
         title={room.name} 
         subtitle={`${room.type} • ${room.size} • ${room.available} rooms available`}
       />
-      
+
       {/* Image Carousel */}
       <div className="my-8">
         <Carousel className="w-full">
@@ -517,7 +515,7 @@ const RoomDetail = () => {
           </div>
         </Carousel>
       </div>
-      
+
       {/* Room details */}
       <div className="grid md:grid-cols-3 gap-8 my-8">
         <div className="md:col-span-2 space-y-6">
@@ -525,7 +523,7 @@ const RoomDetail = () => {
             <h3 className="text-xl font-semibold mb-3">Description</h3>
             <p className="text-muted-foreground">{room.description}</p>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-semibold mb-3">Room Amenities</h3>
             <div className="grid grid-cols-2 gap-2">
@@ -537,7 +535,7 @@ const RoomDetail = () => {
               ))}
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-semibold mb-3">Room Features</h3>
             <div className="flex flex-wrap gap-2">
@@ -549,16 +547,16 @@ const RoomDetail = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="bg-sage-50 p-6 rounded-lg h-fit">
           <h3 className="text-xl font-semibold mb-4">Room Summary</h3>
-          
+
           <div className="space-y-4 mb-6">
             <div className="flex justify-between">
               <span className="text-muted-foreground">Price per night</span>
               <span className="font-semibold">${room.price / 130}</span>
             </div>
-            
+
             <div className="flex justify-between">
               <span className="text-muted-foreground">Capacity</span>
               <span className="flex items-center">
@@ -570,7 +568,7 @@ const RoomDetail = () => {
                 {room.capacity} {room.capacity === 1 ? 'Guest' : 'Guests'}
               </span>
             </div>
-            
+
             <div className="flex justify-between">
               <span className="text-muted-foreground">Room Size</span>
               <span className="flex items-center">
@@ -578,14 +576,14 @@ const RoomDetail = () => {
                 {room.size}
               </span>
             </div>
-            
+
             {room.available < 5 && (
               <div className="bg-red-100 text-red-800 p-3 rounded-md text-sm">
                 Only {room.available} rooms left at this price!
               </div>
             )}
           </div>
-          
+
           <Button asChild className="w-full bg-sasana-600 hover:bg-sasana-700">
             <Link to={`/book?room=${room.id}`}>Book This Room</Link>
           </Button>
