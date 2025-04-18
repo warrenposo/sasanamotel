@@ -11,7 +11,6 @@ import aberdeen from '@/assets/Images/Aberdeer/Aberdeer3.jpg';
 import agra from '@/assets/Images/Agra/Agra7.jpg';
 import paris from '@/assets/Images/Paris/p12.jpg';
 import mahe from '@/assets/Images/Mahe/Mahe8.jpg';
-import budgetDoubleRoomImage from '../../public/images/BudgetDoubleRoom9/8.png';
 
 const featuredRooms = [
   {
