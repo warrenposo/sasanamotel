@@ -6,7 +6,7 @@ import SectionHeading from '../components/SectionHeading';
 import AmenityCard from '../components/AmenityCard';
 import RoomCard from '../components/RoomCard';
 import TestimonialCarousel from '../components/TestimonialCarousel';
-import mahe1 from '@/assets/Images/Mahe/Mahe8.png';
+import mahe1 from '@/assets/Images/Mahe/Mahe4.png';
 import aberdeen from '@/assets/Images/Aberdeer/Aberdeer3.png';
 import agra from '@/assets/Images/Agra/Agra7.png';
 import paris from '@/assets/Images/Paris/p12.png';
