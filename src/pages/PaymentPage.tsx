@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import axios from 'axios';
 
 const rooms = [
   {
@@ -26,14 +27,25 @@ const PaymentPage = () => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  const handlePayment = (e) => {
+  const handlePayment = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    // Simulate payment process
-    setTimeout(() => {
-      setLoading(false);
+    try {
+      console.log(phoneNumber,amount);
+
+      const response = await axios.post('http://localhost:5000/api/stkpush', {
+        phone: phoneNumber,
+        amount: "1",
+      });
+
+      
       setSuccess(true);
-    }, 3000);
+    } catch (error) {
+      alert('Payment failed. Please try again.');
+      console.error(error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -95,4 +107,4 @@ const PaymentPage = () => {
   );
 };
 
-export default PaymentPage; 
+export default PaymentPage;
