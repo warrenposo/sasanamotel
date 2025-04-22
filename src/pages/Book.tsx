@@ -56,10 +56,10 @@ const Book = () => {
                     Room Rates
                   </h3>
                   <p className="text-muted-foreground mb-4">
-                    Our room rates start from $21 per night, depending on the room type and season.
+                    Our room rates start from ksh 2500 per night, depending on the room type and season.
                   </p>
                   <div className="space-y-3">
-                    <div className="flex justify-between items-center pb-2 border-b border-sasana-100">
+                    {/* <div className="flex justify-between items-center pb-2 border-b border-sasana-100">
                       <span className="font-medium">Double Room</span>
                       <span className="font-medium text-sasana-800">$45/night</span>
                     </div>
@@ -70,7 +70,7 @@ const Book = () => {
                     <div className="flex justify-between items-center pb-2 border-b border-sasana-100">
                       <span className="font-medium">Family Room</span>
                       <span className="font-medium text-sasana-800">$75/night</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 
@@ -106,7 +106,7 @@ const Book = () => {
                     <li className="flex items-start">
                       <div className="w-2 h-2 rounded-full bg-sasana-600 mr-2 mt-2"></div>
                       <span>
-                        <span className="font-medium">Payments:</span> We accept Visa, Mastercard, and UnionPay credit cards.
+                        <span className="font-medium">Payments:</span> We accept Mpesa Payments and cash.
                       </span>
                     </li>
                   </ul>
