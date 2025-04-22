@@ -144,7 +144,7 @@ export const roomsData = [
     features: ['Garden View', 'Free WiFi', 'Bath'],
     size: '16 m²',
     available: 4,
-    description: 'Our Deluxe Double Room with Bath offers a comfortable and elegant space featuring a private bathroom with a bathtub. Perfect for couples or single travelers looking for extra comfort.',
+    description: 'Our Room  offers a comfortable and elegant space featuring a private bathroom with a bathtub. Perfect for couples or single travelers looking for extra comfort.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Bath', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe']
   },
   {
@@ -167,7 +167,7 @@ export const roomsData = [
     features: ['Garden View', 'Soundproofing', 'Extra Space'],
     size: '24 m²',
     available: 7,
-    description: 'Spacious and versatile, our Deluxe Double or Twin Room can be arranged with either a double bed or two separate twin beds to accommodate your preferences. Perfect for couples or friends traveling together.',
+    description: 'Spacious and versatile, our Room can be arranged with either a double bed or two separate twin beds to accommodate your preferences. Perfect for couples or friends traveling together.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe', 'Extra pillows']
   },
   {
@@ -186,7 +186,7 @@ export const roomsData = [
     features: ['Garden View', 'Flat-screen TV', 'Free WiFi'],
     size: '16 m²',
     available: 4,
-    description: 'Our Deluxe Double Room offers a comfortable queen-sized bed, modern amenities, and a cozy atmosphere. Ideal for couples seeking a relaxing retreat in Bungoma.',
+    description: 'OurRoom offers a comfortable queen-sized bed, modern amenities, and a cozy atmosphere. Ideal for couples seeking a relaxing retreat in Bungoma.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe']
   },
   {
@@ -208,7 +208,7 @@ export const roomsData = [
     features: ['Garden View', 'Free WiFi', 'Spacious'],
     size: '25 m²',
     available: 5,
-    description: 'Indulge in extra space with our Large Deluxe Double Room. Featuring a spacious layout, this room provides ample room to relax and unwind after a day of exploring Bungoma.',
+    description: 'Indulge in extra space with our Room. Featuring a spacious layout, this room provides ample room to relax and unwind after a day of exploring Bungoma.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe', 'Seating area']
   },
   {
@@ -229,7 +229,7 @@ export const roomsData = [
     features: ['Free WiFi', 'Breakfast Included'],
     size: '16 m²',
     available: 6,
-    description: 'Our Budget Double Room offers great value without compromising on comfort. Perfect for travelers looking for affordable accommodation without sacrificing essential amenities.',
+    description: 'Our  Room offers great value without compromising on comfort. Perfect for travelers looking for affordable accommodation without sacrificing essential amenities.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe']
   },
   {
@@ -250,7 +250,7 @@ export const roomsData = [
     features: ['Garden View', 'Free WiFi', 'Cozy'],
     size: '10 m²',
     available: 6,
-    description: 'Designed for solo travelers, our Deluxe Single Room offers a comfortable single bed and all the essential amenities for a pleasant stay. Compact yet cozy, it\'s ideal for business travelers or solo adventurers.',
+    description: 'Designed for solo travelers, our Room offers a comfortable single bed and all the essential amenities for a pleasant stay. Compact yet cozy, it\'s ideal for business travelers or solo adventurers.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe']
   },
   {
@@ -273,7 +273,7 @@ export const roomsData = [
     features: ['Garden View', 'Free WiFi', 'Shower'],
     size: '16 m²',
     available: 6,
-    description: 'Our Deluxe Double Room with Shower features a comfortable double bed and a modern private bathroom with a shower. Enjoy a restful night\'s sleep and all the amenities you need for a pleasant stay.',
+    description: 'Our Room features a comfortable  bed and a modern private bathroom with a shower. Enjoy a restful night\'s sleep and all the amenities you need for a pleasant stay.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe']
   },
   {
@@ -296,7 +296,7 @@ export const roomsData = [
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
     available: 9,
-    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    description: 'Enjoy premium comfort at budget-friendly prices with our Premium  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
   },
   {
@@ -322,7 +322,7 @@ export const roomsData = [
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
     available: 9,
-    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    description: 'Enjoy premium comfort at budget-friendly prices with our  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
   },
   {
@@ -341,7 +341,7 @@ export const roomsData = [
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
     available: 9,
-    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    description: 'Enjoy premium comfort at budget-friendly prices with our  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
   },
   {
@@ -364,7 +364,7 @@ export const roomsData = [
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
     available: 9,
-    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    description: 'Enjoy premium comfort at budget-friendly prices with our Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
   },
   {
@@ -387,7 +387,7 @@ export const roomsData = [
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
     available: 9,
-    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    description: 'Enjoy premium comfort at budget-friendly prices with our  Budget  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
   },
   {
@@ -409,7 +409,7 @@ export const roomsData = [
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
     available: 9,
-    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    description: 'Enjoy premium comfort at budget-friendly prices with our  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
   },
   {
@@ -430,7 +430,7 @@ export const roomsData = [
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
     available: 9,
-    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    description: 'Enjoy premium comfort at budget-friendly prices with our  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
   },
   {
@@ -452,7 +452,7 @@ export const roomsData = [
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
     available: 9,
-    description: 'Enjoy premium comfort at budget-friendly prices with our Premium Budget Double Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    description: 'Enjoy premium comfort at budget-friendly prices with our  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
   },
 ];
