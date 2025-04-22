@@ -2,7 +2,7 @@ import React from 'react';
 import SectionHeading from '../components/SectionHeading';
 import RoomCard from '../components/RoomCard';
 import { BedDouble, User, Users, Bath, Droplet } from 'lucide-react';
-import aberdeer from '../../public/images/Aberdeer/Aberdeer3.png';
+import aberdeen from '../../public/images/Aberdeer/Aberdeer3.png';
 import agra from '../../public/images/Agra/Agra2.png';
 import bangkok from '../../public/images/Bangkok/Bangkok3.png';
 import brae from'../../public/images/Brae/brae4.png';
@@ -21,11 +21,11 @@ import { Link } from 'react-router-dom';
 
 const rooms = [
   {
-    id: 'aberdeer',
-    name: 'Aberdeer',
-    type: 'Aberdeer',
+    id: 'aberdeen',
+    name: 'Aberdeen',
+    type: 'Aberdeen',
     price: 2500,
-    image: aberdeer,
+    image: aberdeen,
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Bath'],
     size: '16 m²',

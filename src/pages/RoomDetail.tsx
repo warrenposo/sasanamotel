@@ -127,9 +127,9 @@ import zurich9 from '../../public/images/Zurich/Zurich9.png';
 // Room data with multiple images
 export const roomsData = [
   {
-    id: 'aberdeer',
-    name: 'Aberdeer',
-    type: 'Aberdeer',
+    id: 'aberdeen',
+    name: 'Aberdeen',
+    type: 'Aberdeen',
     price: 2500,
     images: [
       aberdeer1,
