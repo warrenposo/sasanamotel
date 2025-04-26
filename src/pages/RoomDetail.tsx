@@ -17,10 +17,6 @@ import agra2 from '../../public/images/Agra/Agra2.png';
 import agra3 from '../../public/images/Agra/Agra3.png';
 import agra4 from '../../public/images/Agra/Agra4.png';
 import agra5 from '../../public/images/Agra/Agra5.png';
-import agra6 from '../../public/images/Agra/Agra6.png';
-import agra7 from '../../public/images/Agra/Agra7.png';
-import agra8 from '../../public/images/Agra/Agra8.png';
-import agra9 from '../../public/images/Agra/Agra9.png';
 import bangkok1 from '../../public/images/Bangkok/Bangkok1.png';
 import bangkok3 from '../../public/images/Bangkok/Bangkok3.png';
 import bangkok6 from '../../public/images/Bangkok/Bangkok6.png';
@@ -32,22 +28,19 @@ import brae3 from '../../public/images/Brae/brae3.png';
 import brae4 from'../../public/images/Brae/brae4.png';
 import brae5 from '../../public/images/Brae/brae5.png';
 import brae6 from '../../public/images/Brae/brae6.png';
-import brae7 from '../../public/images/Brae/brae7.png';
-import brae8 from '../../public/images/Brae/brae8.png';
 import london1 from '../../public/images/London/London1.png';
 import london2 from '../../public/images/London/London2.png';
 import london3 from '../../public/images/London/London3.png';
 import london4 from '../../public/images/London/London4.png';
 import london5 from '../../public/images/London/London5.png';
 import london6 from '../../public/images/London/London6.png';
-import london7 from '../../public/images/London/London7.png';
-import lquitos1 from '../../public/images/Lquitos/Iquitos1.png';
+import lquitos1 from '../../public/images/Lquitos/lquitos1.png';
 import lquitos2 from '../../public/images/Lquitos/Iquitos2.png';
 import lquitos3 from'../../public/images/Lquitos/Iquitos3.png';
-import lquitos4 from '../../public/images/Lquitos/Iquitos4.png';
-import lquitos5 from '../../public/images/Lquitos/Iquitos5.png';
-import lquitos6 from '../../public/images/Lquitos/Iquitos6.png';
-import lquitos7 from '../../public/images/Lquitos/Iquitos7.png';
+import lquitos4 from '../../public/images/Lquitos/lquitos4.png';
+import lquitos5 from '../../public/images/Lquitos/lquitos5.png';
+import lquitos6 from '../../public/images/Lquitos/lquitos6.png';
+import lquitos7 from '../../public/images/Lquitos/lquitos7.png';
 import magog1 from '../../public/images/Magog/magog1.png';
 import magog2 from '../../public/images/Magog/magog2.png';
 import magog3 from '../../public/images/Magog/magog3.png';
@@ -73,16 +66,12 @@ import paris4 from '../../public/images/Paris/p4.png';
 import paris5 from '../../public/images/Paris/p5.png';
 import paris6 from '../../public/images/Paris/p6.png';
 import paris7 from '../../public/images/Paris/p7.png';
-import paris8 from '../../public/images/Paris/p8.png';
-import paris9 from '../../public/images/Paris/p9.png';
-import paris10 from '../../public/images/Paris/p10.png';
-import paris11 from'../../public/images/Paris/p10.png';
-import paris12 from '../../public/images/Paris/p10.png';
 import sandbanks1 from '../../public/images/Sandbanks/Sandbanks1.png';
 import sandbanks2 from'../../public/images/Sandbanks/Sandbanks2.png';
 import sandbanks3 from'../../public/images/Sandbanks/Sandbanks3.png';
 import sandbanks4 from '../../public/images/Sandbanks/Sandbanks4.png';
 import sandbanks5 from '../../public/images/Sandbanks/Sandbanks5.png';
+import sandbanks6 from '../../public/images/Sandbanks/Sandbanks6.png'
 import sanfrancisco1 from '../../public/images/Sanfrancisco/Sanfrancisco1.png';
 import sanfrancisco2 from '../../public/images/Sanfrancisco/Sanfrancisco2.png';
 import sanfrancisco3 from '../../public/images/Sanfrancisco/Sanfrancisco3.png';
@@ -90,7 +79,6 @@ import sanfrancisco4 from '../../public/images/Sanfrancisco/Sanfrancisco4.png';
 import sanfrancisco5 from '../../public/images/Sanfrancisco/Sanfrancisco5.png';
 import sanfrancisco6 from '../../public/images/Sanfrancisco/Sanfrancisco6.png';
 import sanfrancisco7 from '../../public/images/Sanfrancisco/Sanfrancisco7.png';
-import sanfrancisco8 from '../../public/images/Sanfrancisco/Sanfrancisco8.png';
 import stonetwon1 from '../../public/images/Stonetown/Stonetown1.png';
 import stonetwon2 from '../../public/images/Stonetown/Stonetown2.png';
 import stonetwon3 from '../../public/images/Stonetown/Stonetown3.png';
@@ -98,8 +86,6 @@ import stonetwon4 from '../../public/images/Stonetown/Stonetown4.png';
 import stonetwon5 from '../../public/images/Stonetown/Stonetown5.png';
 import stonetwon6 from '../../public/images/Stonetown/Stonetown6.png';
 import stonetwon7 from '../../public/images/Stonetown/Stonetown7.png';
-import stonetwon8 from '../../public/images/Stonetown/Stonetown8.png';
-import stonetwon9 from '../../public/images/Stonetown/Stonetown9.png';
 import tokyo1 from '../../public/images/Tokyo/Tokyo1.png';
 import tokyo2 from'../../public/images/Tokyo/Tokyo2.png';
 import tokyo3 from '../../public/images/Tokyo/Tokyo3.png';
@@ -107,7 +93,6 @@ import tokyo4 from '../../public/images/Tokyo/Tokyo4.png';
 import tokyo5 from '../../public/images/Tokyo/Tokyo5.png';
 import tokyo6 from '../../public/images/Tokyo/Tokyo6.png';
 import tokyo7 from '../../public/images/Tokyo/Tokyo7.png';
-import tokyo8 from '../../public/images/Tokyo/Tokyo8.png';
 import vinson1 from '../../public/images/Vinson/Vinson1.png';
 import vinson2 from '../../public/images/Vinson/Vinson2.png';
 import vinson3 from '../../public/images/Vinson/Vinson3.png';
@@ -122,7 +107,7 @@ import zurich5 from '../../public/images/Zurich/Zurich5.png';
 import zurich6 from '../../public/images/Zurich/Zurich6.png';
 import zurich7 from '../../public/images/Zurich/Zurich7.png';
 import zurich8 from '../../public/images/Zurich/Zurich8.png';
-import zurich9 from '../../public/images/Zurich/Zurich9.png';
+// import zurich9 from '../../public/images/Zurich/Zurich9.png';
 
 // Room data with multiple images
 export const roomsData = [
@@ -158,10 +143,7 @@ export const roomsData = [
       agra3,
       agra4,
       agra5,
-      agra6,
-      agra7,
-      agra8,
-      agra9,
+
     ],
     capacity: 4,
     features: ['Garden View', 'Soundproofing', 'Extra Space'],
@@ -201,8 +183,7 @@ export const roomsData = [
       brae4,
       brae5,
       brae6,
-      brae7,
-      brae8,
+
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Spacious'],
@@ -223,7 +204,7 @@ export const roomsData = [
       london4,
       london5,
       london6,
-      london7,
+      
     ],
     capacity: 2,
     features: ['Free WiFi', 'Breakfast Included'],
@@ -312,11 +293,7 @@ export const roomsData = [
       paris5,
       paris6,
       paris7,
-      paris8,
-      paris9,
-      paris10,
-      paris11,
-      paris12,
+    
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
@@ -336,6 +313,7 @@ export const roomsData = [
       sandbanks3,
       sandbanks4,
       sandbanks5,
+      sandbanks6,
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
@@ -358,7 +336,7 @@ export const roomsData = [
       sanfrancisco6,
       sanfrancisco6,
       sanfrancisco7,
-      sanfrancisco8,
+  
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
@@ -380,8 +358,7 @@ export const roomsData = [
       stonetwon5,
       stonetwon6,
       stonetwon7,
-      stonetwon8,
-      stonetwon9,
+
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
@@ -403,7 +380,7 @@ export const roomsData = [
       tokyo5,
       tokyo6,
       tokyo7,
-      tokyo8,
+  
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
@@ -446,7 +423,7 @@ export const roomsData = [
       zurich6,
       zurich7,
       zurich8,
-      zurich9,
+      // zurich9,
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],

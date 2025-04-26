@@ -6,10 +6,10 @@ import SectionHeading from '../components/SectionHeading';
 import AmenityCard from '../components/AmenityCard';
 import RoomCard from '../components/RoomCard';
 import TestimonialCarousel from '../components/TestimonialCarousel';
-import mahe1 from '../../public/images/Mahe/Mahe8.png';
+import mahe1 from '../../public/images/Mahe/Mahe3.png';
 import aberdeen from '../../public/images/Aberdeer/Aberdeer3.png';
-import agra from '../../public/images/Agra/Agra7.png';
-import paris from '../../public/images/Paris/p12.png';
+import agra from '../../public/images/Agra/Agra2.png';
+import paris from '../../public/images/Paris/p5.png';
 import mahe from '../../public/images/Mahe/Mahe4.png';
 
 const featuredRooms = [
