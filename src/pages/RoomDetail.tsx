@@ -107,7 +107,22 @@ import zurich5 from '../../public/images/Zurich/Zurich5.png';
 import zurich6 from '../../public/images/Zurich/Zurich6.png';
 import zurich7 from '../../public/images/Zurich/Zurich7.png';
 import zurich8 from '../../public/images/Zurich/Zurich8.png';
-// import zurich9 from '../../public/images/Zurich/Zurich9.png';
+import seoul1  from '../../public/images/Seoul/Seoul1.png';
+import seoul2  from '../../public/images/Seoul/Seoul2.png';
+import seoul3  from '../../public/images/Seoul/Seoul3.png';
+import seoul4  from '../../public/images/Seoul/Seoul4.png';
+import seoul5  from '../../public/images/Seoul/Seoul5.png';
+import seoul6  from '../../public/images/Seoul/Seoul6.png';
+import limpopo1 from '../../public/images/Limpopo/Limpopo1.png';
+import limpopo2 from '../../public/images/Limpopo/Limpopo2.png';
+import limpopo3 from '../../public/images/Limpopo/Limpopo3.png';
+import limpopo4 from '../../public/images/Limpopo/Limpopo4.png';
+import limpopo5 from '../../public/images/Limpopo/Limpopo5.png';
+import limpopo6 from '../../public/images/Limpopo/Limpopo6.png';
+import limpopo7 from '../../public/images/Limpopo/Limpopo7.png';
+
+
+
 
 // Room data with multiple images
 export const roomsData = [
@@ -380,6 +395,50 @@ export const roomsData = [
       tokyo5,
       tokyo6,
       tokyo7,
+  
+    ],
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9,
+    description: 'Enjoy premium comfort at budget-friendly prices with our  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
+  },
+  {
+    id: 'limpopo',
+    name: 'Limpopo',
+    type: 'Limpopo',
+    price: 2500,
+    images: [
+      limpopo1,
+      limpopo2,
+      limpopo3,
+      limpopo4,
+      limpopo5,
+      limpopo6,
+      limpopo7,
+  
+    ],
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9,
+    description: 'Enjoy premium comfort at budget-friendly prices with our  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
+    amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
+  },
+  {
+    id: 'seoul',
+    name: 'Seoul',
+    type: 'Seoul',
+    price: 2500,
+    images: [
+      seoul1,
+      seoul2,
+      seoul3,
+      seoul4,
+      seoul4,
+      seoul5,
+      seoul6,
   
     ],
     capacity: 2,

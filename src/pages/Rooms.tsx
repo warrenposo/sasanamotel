@@ -17,6 +17,8 @@ import stonetown from '../../public/images/Stonetown/Stonetown2.png';
 import tokyo from '../../public/images/Tokyo/Tokyo4.png';
 import vinson from'../../public/images/Vinson/Vinson4.png';
 import zurich from'../../public/images/Zurich/Zurich2.png';
+import limpopo from '../../public/images/Limpopo/Limpopo2.png';
+import seoul from '../../public/images/Seoul/Seoul3.png';
 import { Link } from 'react-router-dom';
 
 const rooms = [
@@ -169,6 +171,28 @@ const rooms = [
     type: 'Vinson',
     price: 2500,
     image: vinson,
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9
+  },
+  {
+    id: 'limpopo',
+    name: 'Limpopo',
+    type: 'Limpopo',
+    price: 2500,
+    image: limpopo,
+    capacity: 2,
+    features: ['Garden View', 'Free WiFi'],
+    size: '16 m²',
+    available: 9
+  },
+  {
+    id: 'seoul',
+    name: 'Seoul',
+    type: 'Seoul',
+    price: 2500,
+    image: seoul,
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
