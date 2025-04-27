@@ -160,9 +160,9 @@ export const roomsData = [
       agra5,
 
     ],
-    capacity: 4,
+    capacity: 2,
     features: ['Garden View', 'Soundproofing', 'Extra Space'],
-    size: '24 m²',
+    size: '16 m²',
     available: 7,
     description: 'Spacious and versatile, our Room can be arranged with either a double bed or two separate twin beds to accommodate your preferences. Perfect for couples or friends traveling together.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe', 'Extra pillows']
@@ -230,7 +230,7 @@ export const roomsData = [
   },
   {
     id: 'lquitos',
-    name: 'Lquitos',
+    name: 'Iquitos',
     type: 'Lquitos',
     price: 2500,
     images: [
@@ -288,12 +288,12 @@ export const roomsData = [
       mahe8,
       mahe9,
     ],
-    capacity: 2,
+    capacity: 4,
     features: ['Garden View', 'Free WiFi'],
-    size: '16 m²',
+    size: '24 m²',
     available: 9,
     description: 'Enjoy premium comfort at budget-friendly prices with our Premium  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
-    amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
+    amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone','baby cot']
   },
   {
     id: 'paris',
@@ -330,9 +330,9 @@ export const roomsData = [
       sandbanks5,
       sandbanks6,
     ],
-    capacity: 2,
+    capacity: 1,
     features: ['Garden View', 'Free WiFi'],
-    size: '16 m²',
+    size: '10 m²',
     available: 9,
     description: 'Enjoy premium comfort at budget-friendly prices with our  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
