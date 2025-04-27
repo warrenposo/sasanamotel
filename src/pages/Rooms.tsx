@@ -105,7 +105,7 @@ const rooms = [
     type: 'Mahe',
     price: 4000,
     image: mahe,
-    capacity: 2,
+    capacity: 4,
     features: ['Garden View', 'Free WiFi'],
     size: '24 m²',
     available: 1
@@ -127,9 +127,9 @@ const rooms = [
     type: 'Sandbanks',
     price: 2500,
     image: sandbanks,
-    capacity: 2,
+    capacity: 1,
     features: ['Garden View', 'Free WiFi'],
-    size: '16 m²',
+    size: '10 m²',
     available: 1
   },
   {
