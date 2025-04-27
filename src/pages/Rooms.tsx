@@ -31,7 +31,7 @@ const rooms = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Bath'],
     size: '16 m²',
-    available: 4
+    available: 1
   },
   {
     id: 'agra',
@@ -39,10 +39,10 @@ const rooms = [
     type: 'Agra',
     price: 2500,
     image: agra,
-    capacity: 4,
+    capacity: 2,
     features: ['Garden View', 'Soundproofing', 'Extra Space'],
-    size: '24 m²',
-    available: 7
+    size: '16 m²',
+    available: 1
   },
   {
     id: 'bangkok',
@@ -53,7 +53,7 @@ const rooms = [
     capacity: 2,
     features: ['Garden View', 'Flat-screen TV', 'Free WiFi'],
     size: '16 m²',
-    available: 4
+    available: 1
   },
   {
     id: 'brae',
@@ -63,8 +63,8 @@ const rooms = [
     image: brae,
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Spacious'],
-    size: '25 m²',
-    available: 5
+    size: '16 m²',
+    available: 1
   },
   {
     id: 'london',
@@ -75,18 +75,18 @@ const rooms = [
     capacity: 2,
     features: ['Free WiFi', 'Breakfast Included'],
     size: '16 m²',
-    available: 6
+    available: 1
   },
   {
     id: 'lquitos',
-    name: 'Lquitos',
+    name: 'Iquitos',
     type: 'Lquitos',
     price: 2500,
     image: lquitos,
     capacity: 1,
     features: ['Garden View', 'Free WiFi', 'Cozy'],
-    size: '10 m²',
-    available: 6
+    size: '16 m²',
+    available: 1
   },
   {
     id: 'magog',
@@ -97,18 +97,18 @@ const rooms = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Shower'],
     size: '16 m²',
-    available: 6
+    available: 1
   },
   {
     id: 'mahe',
     name: 'Mahe',
     type: 'Mahe',
-    price: 3500,
+    price: 4000,
     image: mahe,
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
-    size: '16 m²',
-    available: 9
+    size: '24 m²',
+    available: 1
   },
   {
     id: 'paris',
@@ -119,7 +119,7 @@ const rooms = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
-    available: 9
+    available: 1
   },
   {
     id: 'sandbanks',
@@ -130,7 +130,7 @@ const rooms = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
-    available: 9
+    available: 1
   },
   {
     id: 'sanfrancisco',
@@ -152,7 +152,7 @@ const rooms = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
-    available: 9
+    available: 1
   },
   {
     id: 'tokyo',
@@ -163,7 +163,7 @@ const rooms = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
-    available: 9
+    available: 1
   },
   {
     id: 'vinson',
@@ -174,7 +174,7 @@ const rooms = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
-    available: 9
+    available: 1
   },
   {
     id: 'limpopo',
@@ -185,7 +185,7 @@ const rooms = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
-    available: 9
+    available: 1
   },
   {
     id: 'seoul',
@@ -196,7 +196,7 @@ const rooms = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
-    available: 9
+    available: 1
   },
   {
     id: 'zurich',
@@ -207,7 +207,7 @@ const rooms = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
-    available: 9
+    available: 1
   },
 ];
 
