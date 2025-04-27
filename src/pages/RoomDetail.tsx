@@ -231,7 +231,7 @@ export const roomsData = [
   {
     id: 'lquitos',
     name: 'Iquitos',
-    type: 'Lquitos',
+    type: 'Iquitos',
     price: 2500,
     images: [
       lquitos1,
