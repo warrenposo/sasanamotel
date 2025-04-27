@@ -80,7 +80,7 @@ const rooms = [
   {
     id: 'lquitos',
     name: 'Iquitos',
-    type: 'Lquitos',
+    type: 'Iquitos',
     price: 2500,
     image: lquitos,
     capacity: 1,
@@ -91,7 +91,7 @@ const rooms = [
   {
     id: 'magog',
     name: 'Magog',
-    type: 'Mahod',
+    type: 'Magog',
     price: 2500,
     image: magog,
     capacity: 2,
@@ -141,7 +141,7 @@ const rooms = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
-    available: 9
+    available: 1
   },
   {
     id: 'stonetown',

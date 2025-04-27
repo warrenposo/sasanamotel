@@ -30,9 +30,9 @@ const featuredRooms = [
     type: 'Agra',
     price: 2500,
     image: agra,
-    capacity: 4,
+    capacity: 2,
     features: ['Garden View', 'Soundproofing', 'Extra Space'],
-    size: '24 m²',
+    size: '16 m²',
     available: 7
   },
 ];
