@@ -253,7 +253,7 @@ const Home = () => {
             <Button asChild size="lg" className="bg-white text-sasana-900 hover:bg-sasana-100">
               <Link to="/payment">Book Now</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+            <Button asChild variant="outline" size="lg" className="border-white text-sasana-700 hover:bg-white/10">
               <Link to="/contact">Contact Us</Link>
             </Button>
           </div>
