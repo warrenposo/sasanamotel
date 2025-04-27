@@ -202,7 +202,7 @@ export const roomsData = [
     ],
     capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Spacious'],
-    size: '25 m²',
+    size: '16 m²',
     available: 5,
     description: 'Indulge in extra space with our Room. Featuring a spacious layout, this room provides ample room to relax and unwind after a day of exploring Bungoma.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe', 'Seating area']
@@ -242,9 +242,9 @@ export const roomsData = [
       lquitos6,
       lquitos7,
     ],
-    capacity: 1,
+    capacity: 2,
     features: ['Garden View', 'Free WiFi', 'Cozy'],
-    size: '10 m²',
+    size: '16 m²',
     available: 6,
     description: 'Designed for solo travelers, our Room offers a comfortable single bed and all the essential amenities for a pleasant stay. Compact yet cozy, it\'s ideal for business travelers or solo adventurers.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Air conditioning', 'Private bathroom', 'Shower', 'Hairdryer', 'Toiletries', 'Desk', 'Wardrobe']
@@ -276,7 +276,7 @@ export const roomsData = [
     id: 'mahe',
     name: 'Mahe',
     type: 'Mahe',
-    price: 3500,
+    price: 4000,
     images: [
       mahe1,
       mahe2,
@@ -291,7 +291,7 @@ export const roomsData = [
     capacity: 4,
     features: ['Garden View', 'Free WiFi'],
     size: '24 m²',
-    available: 9,
+    available: 1,
     description: 'Enjoy premium comfort at budget-friendly prices with our Premium  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone','baby cot']
   },
@@ -313,7 +313,7 @@ export const roomsData = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
-    available: 9,
+    available: 1,
     description: 'Enjoy premium comfort at budget-friendly prices with our  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
   },
@@ -333,7 +333,7 @@ export const roomsData = [
     capacity: 1,
     features: ['Garden View', 'Free WiFi'],
     size: '10 m²',
-    available: 9,
+    available: 1,
     description: 'Enjoy premium comfort at budget-friendly prices with our  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
   },
@@ -356,7 +356,7 @@ export const roomsData = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
-    available: 9,
+    available: 1,
     description: 'Enjoy premium comfort at budget-friendly prices with our Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
   },
@@ -400,7 +400,7 @@ export const roomsData = [
     capacity: 2,
     features: ['Garden View', 'Free WiFi'],
     size: '16 m²',
-    available: 9,
+    available: 1,
     description: 'Enjoy premium comfort at budget-friendly prices with our  Room. This room offers slightly upgraded amenities compared to our standard budget option while remaining affordable.',
     amenities: ['Free WiFi', 'Flat-screen TV', 'Private bathroom', 'Shower', 'Toiletries', 'Desk', 'Wardrobe', 'Telephone']
   },
