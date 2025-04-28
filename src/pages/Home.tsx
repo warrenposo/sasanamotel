@@ -107,7 +107,7 @@ const Home = () => {
           <div className="relative rounded-lg overflow-hidden shadow-xl">
             <img 
               src={mahe1}
-              alt="Sasana Guest House" 
+              alt="Sasani Guest House" 
               className="w-full h-auto object-cover rounded-lg"
             />
             <div className="absolute bottom-4 left-4 right-4 bg-white/90 p-4 rounded-lg backdrop-blur-sm">
