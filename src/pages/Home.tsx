@@ -75,7 +75,7 @@ const Home = () => {
         <div className="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-sasana-900 mb-4">
-              Welcome to <span className="gradient-text">Sasana</span> Guest House
+              Welcome to <span className="gradient-text">Sasani</span> Guest House
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
               A tranquil retreat in Bungoma offering comfort, hospitality, and a touch of home away from home.
@@ -107,7 +107,7 @@ const Home = () => {
           <div className="relative rounded-lg overflow-hidden shadow-xl">
             <img 
               src={mahe1}
-              alt="Sasani Guest House" 
+              alt="Sasana Guest House" 
               className="w-full h-auto object-cover rounded-lg"
             />
             <div className="absolute bottom-4 left-4 right-4 bg-white/90 p-4 rounded-lg backdrop-blur-sm">
