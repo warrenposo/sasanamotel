@@ -75,7 +75,7 @@ const Home = () => {
         <div className="container mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-sasana-900 mb-4">
-              Welcome to <span className="gradient-text">Sasani</span> Guest House
+              Welcome to <span className="gradient-text">Sasana</span> Guest House
             </h1>
             <p className="text-lg text-muted-foreground mb-8">
               A tranquil retreat in Bungoma offering comfort, hospitality, and a touch of home away from home.
